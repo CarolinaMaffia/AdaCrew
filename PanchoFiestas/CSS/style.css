@@ -1,36 +1,47 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
-.all{width:100%;
-	      height: 71px;
-	      display: flex;
-          flex-direction: row;
-          background-color:#F9F732; 
-          opacity: 0.9;
-          justify-content:space-between;
-          align-items:center;
-          position: fixed;
+
+.all {
+	width:100%;
+	height: 71px;
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F80F; 
+    opacity: 0.9;
+    justify-content:space-between;
+    align-items:center;
+    position: fixed;
+    z-index: 2;
 }
-.all img{margin-top: 5px;
+
+.all img {
+	margin-top: 5px;
 }
-.menu{margin-right: 50px;
-	  margin-top: 15px;
+
+.menu {
+	margin-right: 50px;
+	margin-top: 15px;
 }
-.menu ul>li{display: inline-block;
-	        padding-left: 70px; 
-	        font-size:23px;
-	        font-family: "Josefin Sans";
-            
+
+.menu ul li {
+	display: inline-block;
+	padding-left: 70px; 
+	font-size:23px;
+	font-family: "Josefin Sans";        
 }
-.menu ul>li>a{color:grey;}
-.menu a:hover {
+
+.menu ul li a {
+	color:grey;
+}
+/*
+.menu ul li a .servicios:hover {
     background-color:#F9F732;
 	opacity: 0.2;
 	transition: all .3s;
 	text-decoration: none;
-}
-
+}*/
 
 .QuienesSomos {
 	width: 100%;
@@ -61,7 +72,7 @@
 
 .slider1 {
 	width: 100%;
-	background-image: url("../IMG/cumple.jpg");
+	background-image: url("../img/cumple.jpg");
 	background-size: 100%;
 	background-position: 0 -200px;
 	height: 300px;
@@ -70,12 +81,12 @@
 .slider2 {
 	width: 100%;
 	height: 300px;
-	background-image: url("../IMG/magos-para-cumpleaños-y-comuniones.jpg");
+	background-image: url("../img/magos-para-cumpleaños-y-comuniones.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
-.slider1 > div, .slider2>div {
+.slider1 div, .slider2 div {
 	width: 100%;
 	height: 300px;
 	background-color: #000;
