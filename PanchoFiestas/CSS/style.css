@@ -2,6 +2,35 @@
 	padding: 0;
 	margin: 0;
 }
+.all{width:100%;
+	      height: 71px;
+	      display: flex;
+          flex-direction: row;
+          background-color:#F9F732; 
+          opacity: 0.9;
+          justify-content:space-between;
+          align-items:center;
+          position: fixed;
+}
+.all img{margin-top: 5px;
+}
+.menu{margin-right: 50px;
+	  margin-top: 15px;
+}
+.menu ul>li{display: inline-block;
+	        padding-left: 70px; 
+	        font-size:23px;
+	        font-family: "Josefin Sans";
+            
+}
+.menu ul>li>a{color:grey;}
+.menu a:hover {
+    background-color:#F9F732;
+	opacity: 0.2;
+	transition: all .3s;
+	text-decoration: none;
+}
+
 
 .QuienesSomos {
 	width: 100%;
