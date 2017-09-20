@@ -35,13 +35,13 @@
 .menu ul li a {
 	color:grey;
 }
-/*
-.menu ul li a .servicios:hover {
+
+.menu ul li a:hover {
     background-color:#F9F732;
 	opacity: 0.2;
 	transition: all .3s;
 	text-decoration: none;
-}*/
+}
 
 .QuienesSomos {
 	width: 100%;
