@@ -115,3 +115,9 @@
 	background-color: green;
 	height: 300px;
 }
+
+.footer{
+	height: 150px;
+	background-color:#FFF194; 
+    opacity: 0.8; 
+}
