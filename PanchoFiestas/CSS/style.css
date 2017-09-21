@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color:#F6F80F; 
-    opacity: 0.9;
+    opacity: 0.8;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -25,23 +25,35 @@
 	margin-top: 15px;
 }
 
-.menu ul li {
+.menu ul>li {
 	display: inline-block;
-	padding-left: 70px; 
 	font-size:23px;
 	font-family: "Josefin Sans";        
 }
-
 .menu ul li a {
-	color:grey;
+	           color:black;
+	           padding: 25px;
+	           padding-left: 25px;
 }
 
-.menu ul li a:hover {
-    background-color:#F9F732;
-	opacity: 0.2;
-	transition: all .3s;
-	text-decoration: none;
+.menu a:hover {
+               background-color:#F3EB0F;
+               transition: all .5s;
+	           text-decoration: none;
 }
+.menu ul li ul{
+	           display: none;
+}
+.menu ul li:hover ul{ z-index:2;
+	                  display: block;
+	                  position: absolute;
+}
+.menu ul li ul li{display: block;
+
+                  }
+
+
+
 
 .QuienesSomos {
 	width: 100%;
