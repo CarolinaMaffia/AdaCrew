@@ -8,7 +8,7 @@
 	height: 71px;
     display: flex;
     flex-direction: row;
-    background-color:#F6F80F; 
+    background-color:#FFF194; 
     opacity: 0.8;
     justify-content:space-between;
     align-items:center;
@@ -52,13 +52,18 @@
 
                   }
 
+.slider1 {
+	width: 100%;
+	background-image: url("../img/cumple.jpg");
+	background-size: 100%;
+	background-position: 0 -200px;
+	height: 300px;
+}
 
-
-
-.QuienesSomos {
+.quienesSomos {
 	width: 100%;
 	height: 300px;
-	color: #6D16FC;
+	color: black;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -78,16 +83,9 @@
 
 .presentacion p {
 	line-height: 40px;
-	margin-top: 10px;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-.slider1 {
-	width: 100%;
-	background-image: url("../img/cumple.jpg");
-	background-size: 100%;
-	background-position: 0 -200px;
-	height: 300px;
+	margin-top: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 }
 
 .slider2 {
@@ -105,4 +103,10 @@
 	opacity: 0.5;
 	text-align: center;
 	padding: 150px;
+}
+
+.formulario {
+	margin: 30px;
+	background-color: green;
+	height: 300px;
 }

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!--link styles.css
-		opt: link bootstrap-->
 		<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
@@ -10,47 +8,75 @@
 		<title>Pancho Eventos - Salon de fiestas infantiles</title>
 	</head>
 	<body>
-		<header class="all">
-			<img src="img/pancho.png">
-			<nav class="menu">
-				<ul>
-					<li><a href="#">Quiénes somos</a></li>
-					<li><a href="#" class="servicios">Servicios</a>
-					   <ul>
-						   <li><a href=""></a>Fotografía</li>
-						   <li><a href=""></a>Catering</li>
-						   <li><a href=""></a>Animaciones</li>
-					   </ul>
+		<div class="container-fluid">
+			<header class="all">
+				<img src="img/pancho.png">
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Quiénes somos</a></li>
+						<li><a href="#" class="servicios">Servicios</a>
+						<ul>
+							<li><a href=""></a>Fotografía</li>
+							<li><a href=""></a>Catering</li>
+							<li><a href=""></a>Animaciones</li>
+						</ul>
 					</li>
 					<li><a href="#">Galería</a></li>
 					<li><a href="#">Contacto</a></li>
 				</ul>
 			</nav>
-		</header>
-		<section class="FotosSalon">
+			</header>
+		<section class="fotosSalon">
 			<div class="slider1">
 				<div>
 					<h2>SLIDER</h2>
 				</div>
 			</div>
 		</section>
-		<section class="QuienesSomos">
+		<section class="quienesSomos">
 			<article class="presentacion">
 				<h2>Quiénes Somos</h2>
 				<p>Somos una empresa dedicada a la organización integral que trabaja desde hace más de 10 años brindando la mejor calidad de atención y servicio del mercado dentro y fuera de nuestros salones.
 					Gracias a nuestra experiencia, hemos podido desarrollar distintas áreas de negocios que nos permiten estar en todos los detalles para que cada evento sea único e inolvidable. Para lograrlo, integramos un staff de colaboradores altamente capacitados.
-				Nuestro diferencial está marcado por la calidad del resultado final, el compromiso con la excelencia y la pasión de hacer lo que nos gusta.!!!</p>
+				Nuestro diferencial está marcado por la calidad del resultado final, el compromiso con la excelencia y la pasión de hacer lo que nos gusta.</p>
 			</article>
 		</section>
-		<section class="Servicios">
+		<section class="servicios">
 			<div class="slider2">
 				<div>
 					<h2>SLIDER</h2>
 				</div>
 			</div>
 		</section>
-		<section class="Contacto">
+		<section class="row formulario">
+			<div class="col-md-4 col-md-offset-4">
+				<form action="formulario.php" method="post">
+					<div>
+						<label for="campoNombre">Nombre</label>
+						<input type="text" name="nombre" id="campoNombre">
+					</div>
+					<div>
+						<label for="campoApellido">Apellido</label>
+						<input type="text" name="apellido" id="campoApellido">
+					</div>
+					<div>
+						<label for="campoEmail" name="email">E-mail</label>
+						<input type="email" name="email" id="campoEmail">
+					</div>
+					<div>
+						<label for="campoOpciones" name="opciones">Seleccione la fecha</label>
+						<input type="date" name="fecha" id="campoOpciones">
+					</div>
+					</div>
+					<div class="col-md-4">
+					<div>
+						<label for="campoComentario" name="comentario">Consulta</label>
+						<textarea name="comentario" id="campoComentario" cols="20" rows="5"></textarea>
+					</div>
+				</form>
+			</div>
 		</section>
 	<footer></footer>
+</div>
 </body>
 </html>
