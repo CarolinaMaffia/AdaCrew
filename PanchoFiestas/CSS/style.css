@@ -30,27 +30,32 @@
 	font-size:23px;
 	font-family: "Josefin Sans";        
 }
+
 .menu ul li a {
-	           color:black;
-	           padding: 25px;
-	           padding-left: 25px;
+	color:black;
+    padding: 25px;
+    padding-left: 25px;
 }
 
 .menu a:hover {
-               background-color:#F3EB0F;
-               transition: all .5s;
-	           text-decoration: none;
+    background-color:#F3EB0F;
+    transition: all .5s;
+    text-decoration: none;
 }
-.menu ul li ul{
-	           display: none;
-}
-.menu ul li:hover ul{ z-index:2;
-	                  display: block;
-	                  position: absolute;
-}
-.menu ul li ul li{display: block;
 
-                  }
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover ul {
+	z-index:2;
+    display: block;
+    position: absolute;
+}
+
+.menu ul li ul li {
+	display: block;
+}
 
 .slider1 {
 	width: 100%;
