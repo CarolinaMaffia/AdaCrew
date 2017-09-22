@@ -117,7 +117,33 @@
 }
 
 .footer{
-	height: 150px;
+	height: 200px;
 	background-color:#FFF194; 
     opacity: 0.8; 
 }
+
+.footer img {
+	height: 100%;
+	width: auto;
+}
+
+.mapa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mapa p, i{
+	font-size: 30px;
+}
+
+.redesSociales{
+	display: flex;
+	flex-direction: column;
+}
+
+.redesSociales p, a{
+	font-size: 30px;
+}
+
