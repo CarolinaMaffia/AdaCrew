@@ -118,7 +118,46 @@
 }
 
 .footer{
+<<<<<<< HEAD
+	height: 200px;
+	background-color:#FFF194; 
+    opacity: 0.8; 
+}
+
+.footer img {
+	height: 100%;
+	width: auto;
+}
+
+.mapa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mapa p, i{
+	font-size: 30px;
+}
+
+.redesSociales{
+	display: flex;
+	flex-direction: column;
+}
+
+.redesSociales p, a{
+	font-size: 30px;
+}
+
+=======
 	height: 150px;
+<<<<<<< HEAD
     background-color:#FFE53B; 
     opacity: 0.8; 
 }
+=======
+    background-color:#F2EB2D; 
+    opacity: 0.9; 
+}
+>>>>>>> 1c06f68a72f3cb645e02ca0f650e64b8188e4dfd
+>>>>>>> 5e3cfa0782dd6d77acb3e0441d4a898a7a23385e
