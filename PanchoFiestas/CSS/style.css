@@ -59,7 +59,7 @@
 
 .slider1 {
 	width: 100%;
-	background-image: url("../img/cumple.jpg");
+	background-image: url("../IMG/cumple.jpg");
 	background-size: 100%;
 	background-position: 0 -200px;
 	height: 400px;
@@ -97,7 +97,7 @@
 .slider2 {
 	width: 100%;
 	height: 400px;
-	background-image: url("../img/magos-para-cumpleaños-y-comuniones.jpg");
+	background-image: url("../IMG/magos-para-cumpleaños-y-comuniones.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
