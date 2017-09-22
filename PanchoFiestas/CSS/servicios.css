@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	width: 100%;
+	height: 150px;
+	background-color: #F3DA36;
+	opacity: 0.8;
+}
+
+.menu img {
+	position: absolute;
+	margin-left: 40%;
+	margin-top: -50px;
+}
+
+.menu .navbar {
+	width: 100%;
+	height: 150px;
+}
+
+.menu .navbar ul {
+	display: block;
+}
+
+.menu .navbar a {
+	color: #514E52;
+}
+
+.menu .navbar .lista {
+	display: inline-block;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 23px;
+	margin-top: -5px;
+	padding: 55px 50px 55px 50px;
+	margin-left: 20px;
+}
+
+.menu .navbar .l2 {
+	margin-right: 280px;
+}
+
+.menu .navbar .lista:hover {
+	background-color: #F3DA50;
+	transition: all .5s;
+	opacity: 0.8;
+}

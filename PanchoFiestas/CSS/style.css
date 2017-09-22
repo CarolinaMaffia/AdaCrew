@@ -28,7 +28,7 @@
 .menu ul>li {
 	display: inline-block;
 	font-size:23px;
-	font-family: "Josefin Sans";        
+	font-family: "Josefin Sans", sans-serif;        
 }
 
 .menu ul li a {
