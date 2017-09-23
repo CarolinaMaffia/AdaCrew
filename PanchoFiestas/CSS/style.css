@@ -112,11 +112,22 @@
 	padding: 150px;
 }
 
-.formulario {
-	margin: 30px;
-	background-color: green;
-	height: 300px;
+.formu {
+	margin-top: 20px;
+
 }
+
+.ahre {
+ 	background-image: url(../IMG/form2.jpg);
+ 	background-position: bottom;
+ 	background-repeat: no-repeat;
+
+}
+
+legend {
+	font-size: 30px;
+	}
+
 
 .footer{
 	height: 170px;
