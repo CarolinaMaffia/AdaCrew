@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color:#FFE53B; 
-    opacity: 0.8;
+    opacity: 0.7;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -18,6 +18,7 @@
 
 .all img {
 	margin-top: 5px;
+	margin-left: 25px;
 }
 
 .menu {
@@ -28,7 +29,7 @@
 .menu ul>li {
 	display: inline-block;
 	font-size:23px;
-	font-family: "Josefin Sans";        
+	font-family: "Josefin Sans", sans-serif;        
 }
 
 .menu ul li a {
@@ -59,7 +60,7 @@
 
 .slider1 {
 	width: 100%;
-	background-image: url("../img/cumple.jpg");
+	background-image: url("../IMG/cumple.jpg");
 	background-size: 100%;
 	background-position: 0 -200px;
 	height: 400px;
@@ -97,7 +98,7 @@
 .slider2 {
 	width: 100%;
 	height: 400px;
-	background-image: url("../img/magos-para-cumpleaños-y-comuniones.jpg");
+	background-image: url("../IMG/magos-para-cumpleaños-y-comuniones.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -156,6 +157,3 @@
 	font-weight: bold;
 	text-decoration: none;
 }
-
-
-
