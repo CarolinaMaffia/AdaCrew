@@ -112,20 +112,34 @@
 	padding: 150px;
 }
 
+form {
+	z-index: 1;
+}
+
 .formu {
 	margin-top: 20px;
 
 }
 
 .ahre {
- 	background-image: url(../IMG/form2.jpg);
- 	background-position: bottom;
+ 	background-image: url(../IMG/form3.jpg);
+ 	background-attachment: fixed;
+ 	background-position: top;
  	background-repeat: no-repeat;
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	
+ 
+}
 
+.opa {
+	opacity: 0.85;
 }
 
 legend {
-	font-size: 30px;
+	font-size: 40px;
+	font-family: "Josefin Sans", sans-serif;
+
 	}
 
 
