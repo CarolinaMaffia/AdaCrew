@@ -76,13 +76,11 @@
 	font-size: 65px;
 	font-family: "Josefin Sans", sans-serif; 
 	padding: 50px;
-
-
 }
 
 .quienesSomos {
 	width: 100%;
-	height: 370px;
+	height: 400px;
 	color: #711F8E;
 	display: flex;
 	flex-flow: row wrap;
@@ -93,7 +91,7 @@
 .presentacion{
 	margin-top: -60px;
 	width: 80%;
-	height: 230px;
+	height: 270px;
 	text-align: center;
 }
 
@@ -113,7 +111,7 @@
 .slider2 {
 	width: 100%;
 	height: 400px;
-	background-image: url("../IMG/magos-para-cumpleaños-y-comuniones.jpg");
+	background-image: url();
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: #000;

@@ -48,15 +48,11 @@
 	opacity: 0.8;
 }
 
-.Animacion {
-	padding-top: 30px;
-	background-color: #000;
-	color: #FFF;
+
+h2, h3 {
+	font-family: "Raleway", sans-serif;
 }
 
-section {
-	text-align: center;
-	font-family: "Raleway", sans-serif;
-	height: 400px;
-	width: 100%;
+p {
+	font-family: "Josefin Sans", sans-serif;
 }
