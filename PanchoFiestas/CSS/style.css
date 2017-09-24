@@ -72,7 +72,7 @@
 
 .quienesSomos {
 	width: 100%;
-	height: 350px;
+	height: 370px;
 	color: #711F8E;
 	display: flex;
 	flex-flow: row wrap;
@@ -83,19 +83,20 @@
 .presentacion{
 	margin-top: -60px;
 	width: 80%;
-	height: 200px;
+	height: 230px;
 	text-align: center;
 }
 
 .presentacion h2{
 	margin-top: -20px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
 }
 
 .presentacion p {
 	line-height: 40px;
 	margin-top: 25px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 20px;
 }
 
