@@ -12,7 +12,7 @@
 
 .menu img {
 	position: absolute;
-	margin-left: 40%;
+	margin-left: 41%;
 	margin-top: -50px;
 }
 
@@ -34,7 +34,7 @@
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 23px;
 	margin-top: -5px;
-	padding: 55px 50px 55px 50px;
+	padding: 60px 50px 60px 50px;
 	margin-left: 20px;
 }
 
@@ -46,4 +46,17 @@
 	background-color: #F3DA50;
 	transition: all .5s;
 	opacity: 0.8;
+}
+
+.Animacion {
+	padding-top: 30px;
+	background-color: #000;
+	color: #FFF;
+}
+
+section {
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	height: 400px;
+	width: 100%;
 }
