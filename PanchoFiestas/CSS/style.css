@@ -159,6 +159,7 @@ legend {
 	height: 170px;
     background-color:#FFE53B; 
     opacity: 0.8; 
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .mapa {
@@ -166,10 +167,15 @@ legend {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	margin: 10px 0px;
 }
 
 .mapa p, i{
 	font-size: 25px;
+}
+
+.direccion {
+	margin-left: 30px;
 }
 
 .redesSociales {
@@ -178,6 +184,7 @@ legend {
  	justify-content: space-around;
  	align-content: center;
  	align-items: flex-start;
+ 	margin-top: 20px;
 }
 
 .redesSociales i, a{
