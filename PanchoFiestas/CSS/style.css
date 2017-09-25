@@ -61,8 +61,14 @@
 }
 
 .menu ul li a {
+<<<<<<< HEAD
       color: white;
       padding: 28px 25px 23px 25px;
+=======
+	    color: white;
+	    padding: 28px 25px 23px ;
+	     z-index: 1;
+>>>>>>> b924b0e485cfede3fa35e46e569e86f899deeb0d
  }
 
 .menu a:hover {
@@ -82,9 +88,15 @@
 }
 
 .menu ul li ul li {
+<<<<<<< HEAD
   display: block;
   background-color: #A10230;
   padding-top: 50px;
+=======
+	display: block;
+	background-color: #A10230;
+	padding-top: 30px;
+>>>>>>> b924b0e485cfede3fa35e46e569e86f899deeb0d
 }
 
 .fotosSalon {
