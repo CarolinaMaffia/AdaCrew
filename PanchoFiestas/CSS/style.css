@@ -33,10 +33,9 @@
 }
 
 .menu ul li a {
-	color: #514E52;
-    padding: 25px;
-    padding-left: 25px;
-}
+	    color: #514E52;
+	    padding: 28px 25px 23px 25px;
+ }
 
 .menu a:hover {
     background-color:#F3EB0F;
@@ -56,6 +55,10 @@
 
 .menu ul li ul li {
 	display: block;
+}
+.menu ul li ul li{
+	background-color:#FFE53B;
+	padding-top: 50px;
 }
 
 .fotosSalon {
