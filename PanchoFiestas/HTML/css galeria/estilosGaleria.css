@@ -12,3 +12,11 @@
 	float: left;
 	margin-left: 120px;
 }
+
+@media (max-width: 768px){
+.boton{
+	 float: left;
+	 margin-bottom: 20px;
+	 margin-left: 20px;
+	}
+}
