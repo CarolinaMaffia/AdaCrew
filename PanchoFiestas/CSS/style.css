@@ -33,10 +33,9 @@
 }
 
 .menu ul li a {
-	color: #514E52;
-    padding: 25px;
-    padding-left: 25px;
-}
+	    color: #514E52;
+	    padding: 28px 25px 23px 25px;
+ }
 
 .menu a:hover {
     background-color:#F3EB0F;
@@ -56,72 +55,124 @@
 
 .menu ul li ul li {
 	display: block;
+	background-color:#FFE53B;
+	padding-top: 50px;
+}
+
+.fotosSalon {
+	padding-top: 71px;
 }
 
 .slider1 {
 	width: 100%;
-	background-image: url("../IMG/cumple.jpg");
+	background-image: url("../IMG/header.jpg");
+	background-attachment: fixed;
 	background-size: 100%;
-	background-position: 0 -200px;
-	height: 400px;
+	background-position: 0 -10px;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+
+.slider1 h1 {
+	color: white;
+	font-size: 65px;
+	font-family: "Josefin Sans", sans-serif; 
+	padding: 50px;
 }
 
 .quienesSomos {
 	width: 100%;
-	height: 350px;
-	color: #711F8E;
+	height: 430px;
+	color: #000;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
+	background-image: url("../IMG/garlands.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 -30px;
+	opacity: 0.8;
 }
 
 .presentacion{
-	margin-top: -60px;
 	width: 80%;
-	height: 200px;
+	height: 370px;
 	text-align: center;
+	font-weight: bolder;
 }
 
 .presentacion h2{
-	margin-top: -20px;
-	font-family: 'Raleway', sans-serif;
+	margin-top: -1px;
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.presentacion h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
 }
 
 .presentacion p {
 	line-height: 40px;
 	margin-top: 25px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 20px;
 }
 
 .slider2 {
 	width: 100%;
 	height: 400px;
-	background-image: url("../IMG/magos-para-cumpleaños-y-comuniones.jpg");
+	background-image: url();
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: #000;
+	opacity: 0.5;
 }
 
 .slider1 div, .slider2 div {
 	width: 100%;
 	height: 400px;
-	background-color: #000;
-	opacity: 0.5;
+
 	text-align: center;
 	padding: 150px;
 }
 
-.formulario {
-	margin: 30px;
-	background-color: green;
-	height: 300px;
+form {
+	z-index: 1;
+	font-family: "Josefin Sans", sans-serif;
 }
+
+.formu {
+	margin-top: 20px;
+
+}
+
+.ahre {
+ 	background-image: url("../IMG/form3.jpg");
+ 	background-attachment: fixed;
+ 	background-position: top;
+ 	background-repeat: no-repeat;
+ 	font-weight: bold;
+ 	font-size: 20px; 
+}
+
+.opa {
+	opacity: 0.85;
+}
+
+
+legend {
+	font-size: 40px;
+}
+
 
 .footer{
 	height: 170px;
     background-color:#FFE53B; 
     opacity: 0.8; 
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .mapa {
@@ -129,10 +180,15 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	margin: 10px 0px;
 }
 
 .mapa p, i{
 	font-size: 25px;
+}
+
+.direccion {
+	margin-left: 30px;
 }
 
 .redesSociales {
@@ -141,6 +197,7 @@
  	justify-content: space-around;
  	align-content: center;
  	align-items: flex-start;
+ 	margin-top: 20px;
 }
 
 .redesSociales i, a{

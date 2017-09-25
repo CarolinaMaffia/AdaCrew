@@ -6,24 +6,25 @@
 		<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
+		
 		<title>Pancho Eventos - Salon de fiestas infantiles</title>
 		<script src="https://use.fontawesome.com/1755d62274.js"></script>
 	</head>
 	<body>
 		<div id="contenedor">
 			<header class="all">
-				<img src="IMG/pancho.png">
+				<a href="#"><img src="IMG/pancho.png"></a>
 				<nav class="menu">
 					<ul>
 						<li><a href="#Quienes somos">Quiénes somos</a></li>
 						<li><a href="HTML/servicios.html" class="servicios">Servicios</a>
 						<ul>
-							<li><a href=""></a>Fotografía</li>
-							<li><a href=""></a>Catering</li>
-							<li><a href=""></a>Animaciones</li>
+							<li><a href="HTML/servicios.html#fotografia">Fotografía</a></li>
+							<li><a href="HTML/servicios.html#catering">Catering</a></li>
+							<li><a href="HTML/servicios.html#animaciones">Animaciones</a></li>
 						</ul>
 					</li>
-					<li><a href="HTML/galeria.html" target="blank">Galería</a></li>
+					<li><a href="HTML/galeria.html">Galería</a></li>
 					<li><a href="#Contacto">Contacto</a></li>
 				</ul>
 			</nav>
@@ -32,20 +33,23 @@
 		<section class="fotosSalon">
 			<div class="slider1">
 				<div>
-					<h2>SLIDER</h2>
+					<h1>PANCHO EVENTOS</h1>
 				</div>
 			</div>
 		</section>
 		
+		<a name="Quienes somos"></a>
+
 		<section class="quienesSomos">
 			<article class="presentacion">
-				<h2><a name="Quienes somos">Quiénes Somos</a></h2>
+				<h2>¡Bienvenidos a Pancho Eventos!</h2>
+				<h3>¿Quiénes Somos?</h3>
 				<p>Somos una empresa dedicada a la organización integral que trabaja desde hace más de 10 años brindando la mejor calidad de atención y servicio del mercado dentro y fuera de nuestros salones.
 					Gracias a nuestra experiencia, hemos podido desarrollar distintas áreas de negocios que nos permiten estar en todos los detalles para que cada evento sea único e inolvidable. Para lograrlo, integramos un staff de colaboradores altamente capacitados.
 				Nuestro diferencial está marcado por la calidad del resultado final, el compromiso con la excelencia y la pasión de hacer lo que nos gusta.</p>
 			</article>
 		</section>
-		
+
 		<section class="servicios">
 			<div class="slider2">
 				<div>
@@ -53,58 +57,76 @@
 				</div>
 			</div>
 		</section>
+
+		<a name="Contacto"></a>
 		
-		<div class="container-fluid">
-			<section class="row formulario">
-				<div class="col-md-4 col-md-offset-4">
-					<form action="formulario.php" method="post">
-						<div>
-							<label for="campoNombre">Nombre</label>
-							<input type="text" name="nombre" id="campoNombre">
-						</div>
-						<div>
-							<label for="campoApellido">Apellido</label>
-							<input type="text" name="apellido" id="campoApellido">
-						</div>
-						<div>
-							<label for="campoEmail" name="email">E-mail</label>
-							<input type="email" name="email" id="campoEmail">
-						</div>
-						<div>
-							<label for="campoOpciones" name="opciones">Seleccione la fecha</label>
-							<input type="date" name="fecha" id="campoOpciones">
-						</div>
-					</form>
-				</div>
-				<div class="col-md-4">
-					<form action="formulario.php" method="post">
-						<div>
-							<label for="campoComentario" name="comentario">Consulta</label>
-							<textarea name="comentario" id="campoComentario" cols="20" rows="5"></textarea>
-						</div>
-					</form>
-				</div>
-			</section>
-		</div>
-		<footer class="container-fluid">
-			<div class="row footer">
-				<div class="col-md-4 mapa">
-					<img src="https://dummyimage.com/200x120/cccf6a/fff.jpg&text=mapa" alt="mapita">
-					<div class="direccion">
-						<p> Encontranos en: </p>
-						<p> <i class="fa fa-map-marker" aria-hidden="true"></i> Calle Siempreviva 742 </p>
-					</div>
-				</div>
-				<div class="col-md-4"></div>
-				<div class="col-md-4 redesSociales">
-					<h4>Seguinos en las redes sociales: </h4>
-					<a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a>
-					<a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i>  Twitter
-					</a>
-					<a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a>
+	<div class="container-fluid ahre">
+	
+      <form class="form-horizontal">
+      <div class="opa">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <fieldset class="formu">
+              <legend class="text-center">¡Dejanos tu consulta!</legend>
+              <div class="form-group">
+                <label class="control-label" for="Nombre">Nombre</label>
+                <div>
+                  <input id="Nombre" name="Nombre" type="text" placeholder="" class="form-control input-md" required="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="Apellido">Apellido</label>
+                <div>
+                  <input id="Apellido" name="Apellido" type="text" placeholder="" class="form-control input-md" required="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="E-mail">E-mail</label>
+                <div>
+                  <input id="E-mail" name="E-mail" type="text" placeholder="" class="form-control input-md" required="">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="control-label" for="Consulta">Consulta</label>
+                <div>
+                  <textarea class="form-control" id="Consulta" name="Consulta" rows="10"></textarea>
+                </div>
+              </div>
+              <div class="form-group text-center">
+                  <label class="col-md-4 control-label" for="boton"></label>
+                  <div class="col-md-4">
+                    <button id="boton" name="boton" class="btn btn-default">Enviar</button>
+                  </div>
+                </div>
+            </fieldset>
+          </form>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+      
+    </div>
+	<footer class="container-fluid">
+		<div class="row footer">
+			<div class="col-md-4 mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8373702516737!2d-58.43482235534876!3d-34.58298136839953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40b4aa03b95377bf!2sGrupo+Vi-Da!5e0!3m2!1ses-419!2sar!4v1506294600365" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="direccion">
+					<p> Encontranos en: </p>
+					<p> <i class="fa fa-map-marker" aria-hidden="true"></i> Calle Siempreviva 742 </p>
 				</div>
 			</div>
-		</footer>
-	</div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4 redesSociales">
+				<h4>Seguinos en las redes sociales: </h4>
+				<a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a>
+				<a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i>  Twitter
+				</a>
+				<a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a>
+			</div>
+		</div>
+	</footer>
+</div>
 </body>
 </html>
