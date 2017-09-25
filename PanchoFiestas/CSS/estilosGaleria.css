@@ -8,8 +8,8 @@
 	height: 71px;
     display: flex;
     flex-direction: row;
-    background-color:#FFE53B; 
-    opacity: 0.7;
+    background-color: #C70039; 
+    opacity: 0.9;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -33,7 +33,7 @@
 }
 
 .menu ul li a {
-	color: #514E52;
+	color: white;
    padding: 28px 25px 23px 25px;
 }
 
@@ -67,9 +67,10 @@
 
 .footer{
 	height: 170px;
-    background-color:#FFE53B; 
-    opacity: 0.8; 
+    background-color: #C70039; 
+    opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
+    color: white;
 }
 
 .mapa {
@@ -107,7 +108,7 @@
 }
 
 .redesSociales a:hover{
-	color: grey;
+	color: black;
 	font-weight: bold;
 	text-decoration: none;
 }
