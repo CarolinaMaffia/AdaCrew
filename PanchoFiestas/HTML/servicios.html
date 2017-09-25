@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../CSS/servicios.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
-	<title>Servicios</title>
-</head>
-<body>
-	<div class="contenedor">
-		<header class="menu">
-			<img src="../IMG/newproject_1_original.png" alt="Logo">
-			<nav class="navbar">
-				<ul>
-					<a href="../index.html"><li class="lista">Home</li></a>
-					<a href="../index.html#Quienes somos"><li class="lista l2">Quienes Somos</li></a>
-					<a href="galeria.html"><li class="lista">Galería</li></a>
-					<a href="../index.html#Contacto"><li class="lista">Contacto</li></a>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../CSS/servicios.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
+		<title>Servicios</title>
+	</head>
+	<body>
+		<div class="contenedor">
+			<header class="all">
+				<img src="../IMG/pancho.png">
+				<nav class="menu">
+					<ul>
+						<li><a href="#Quienes somos">Quiénes somos</a></li>
+						<li><a href="HTML/servicios.html" class="servicios">Servicios</a>
+						<ul>
+							<li><a href="HTML/servicios.html#fotografia">Fotografía</a></li>
+							<li><a href="HTML/servicios.html#catering">Catering</a></li>
+							<li><a href="HTML/servicios.html#animaciones">Animaciones</a></li>
+						</ul>
+					</li>
+					<li><a href="HTML/galeria.html">Galería</a></li>
+					<li><a href="#Contacto">Contacto</a></li>
 				</ul>
 			</nav>
 		</header>
+		
 		<a name="catering"></a>
 		<section class="Catering">
 			<article>
@@ -34,7 +41,7 @@
 				<div>
 					<h3>Mesa dulce</h3>
 				</div>
-			</article>	
+			</article>
 		</section>
 		<a name="animaciones"></a>
 		<section class="Animacion">
@@ -56,17 +63,35 @@
 		</section>
 		<a name="fotografia"></a>
 		<section class="Fotografia">
-			<article>
+			<article class="camaras">
 				<h2>Conocé a nuestros fotógrafos</h2>
-				<p>Contámos con un grupo de fotógrafos y camarógrafos especializados en fiestas infantiles...</p>
-				<div>
+				<p>Contámos con un grupo de fotógrafos y camarógrafos especializados en fiestas infantiles. Tenemos al mejor grupo de profesionales captando los mejores momentos de una fiesta inolvidable.</p>
+				<div class="fotos">
 					<h3>Fotos</h3>
 				</div>
-				<div>
+				<div class="cams">
 					<h3>Videos</h3>
 				</div>
 			</article>
 		</section>
+		<div class="row footer">
+			<div class="col-md-4 mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8373702516737!2d-58.43482235534876!3d-34.58298136839953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40b4aa03b95377bf!2sGrupo+Vi-Da!5e0!3m2!1ses-419!2sar!4v1506294600365" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="direccion">
+					<p> Encontranos en: </p>
+					<p> <i class="fa fa-map-marker" aria-hidden="true"></i> Calle Siempreviva 742 </p>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4 redesSociales">
+				<h4>Seguinos en las redes sociales: </h4>
+				<a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a>
+				<a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i>  Twitter
+				</a>
+				<a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a>
+			</div>
+		</div>
+	</footer>
 	</div>
 </body>
 </html>
