@@ -38,7 +38,7 @@
  }
 
 .menu a:hover {
-    background-color:#F3EB0F;
+    background-color: #A10230;
     transition: all .5s;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@
 
 .menu ul li ul li {
 	display: block;
-	background-color:#FFE53B;
+	background-color: #A10230;
 	padding-top: 50px;
 }
 
