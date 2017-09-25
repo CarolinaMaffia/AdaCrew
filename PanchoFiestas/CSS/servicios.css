@@ -56,3 +56,50 @@ h2, h3 {
 p {
 	font-family: "Josefin Sans", sans-serif;
 }
+
+.footer{
+	height: 170px;
+    background-color:#FFE53B; 
+    opacity: 0.8; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.mapa {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.mapa p, i{
+	font-size: 25px;
+}
+
+.direccion {
+	margin-left: 30px;
+}
+
+.redesSociales {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	align-content: center;
+ 	align-items: flex-start;
+ 	margin-top: 20px;
+}
+
+.redesSociales i, a{
+	font-size: 20px;
+	color: black;
+}
+
+.redesSociales h4{
+	font-size: 25px;
+}
+
+.redesSociales a:hover{
+	color: grey;
+	font-weight: bold;
+	text-decoration: none;
+}
