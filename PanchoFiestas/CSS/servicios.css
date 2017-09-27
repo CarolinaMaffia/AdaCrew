@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color: #C70039; 
-    opacity: 0.7;
+    opacity: 0.9;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -88,7 +88,7 @@ p {
 .footer{
 	height: 170px;
     background-color: #C70039; 
-    opacity: 0.8; 
+    opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
 }
 
