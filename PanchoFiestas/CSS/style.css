@@ -97,14 +97,14 @@
 	margin: 100px 0px;
 }
 
-.presentacion{
+.presentacion {
 	width: 80%;
 	height: 370px;
 	text-align: center;
 	font-weight: bolder;
 }
 
-.presentacion h2{
+.presentacion h2 {
 	margin-top: -1px;
 	font-family: "Raleway", sans-serif;
 	font-size: 50px;
@@ -203,16 +203,16 @@ legend {
  	margin-top: 20px;
 }
 
-.redesSociales i, a{
+.redesSociales i, a {
 	font-size: 20px;
 	color: white;
 }
 
-.redesSociales h4{
+.redesSociales h4 {
 	font-size: 25px;
 }
 
-.redesSociales a:hover{
+.redesSociales a:hover {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
