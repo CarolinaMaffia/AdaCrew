@@ -56,6 +56,27 @@ p {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 20px;
 }
+.Animacion{
+	     width: 100%;
+	     height: 1800px;
+	     background-color: red;
+	     padding-top: 20px;
+}
+.Animacion h2{font-size: 40px;
+	          display: flex;
+              justify-content: center;
+}
+.position{display:flex;
+	      flex-direction: row;
+	      justify-content: space-around;
+	      padding:30px 100px 50px 60px;
+}
+.dere{ width: 40%; }
+.serv{width: 400px;
+      height: 350px;}
+
+.post{
+       }
 
 .Fotografia {
 	width: 100%;
