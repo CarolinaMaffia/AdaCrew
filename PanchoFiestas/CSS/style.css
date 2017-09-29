@@ -171,7 +171,7 @@ legend {
 
 
 .footer {
-	height: 170px;
+	height: auto;
     background-color: #C70039; 
     opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
