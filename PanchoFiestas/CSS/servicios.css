@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color: #C70039; 
-    opacity: 0.7;
+    opacity: 0.9;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -44,7 +44,7 @@
     text-decoration: none;
 }
 
-.Catering {
+.catering {
 	padding-top: 50px;
 }
 
@@ -56,39 +56,42 @@ p {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 20px;
 }
-.Animacion{
+.animacion {
 	     width: 100%;
 	     height: 1800px;
 	     background-color: red;
 	     padding-top: 20px;
 }
-.Animacion h2{font-size: 40px;
-	          display: flex;
-              justify-content: center;
+.animacion h2 {
+	font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
-.position{display:flex;
-	      flex-direction: row;
-	      justify-content: space-around;
-	      padding:30px 100px 50px 60px;
+.position {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:30px 100px 50px 60px;
 }
-.dere{ width: 40%; }
-.serv{width: 400px;
-      height: 350px;}
+.dere { 
+	width: 40%; 
+}
+.serv {
+	width: 400px;
+    height: 350px;
+}
 
-.post{
-       }
-
-.Fotografia {
+.fotografia {
 	width: 100%;
 	height: 400px;
 	background-color: #000;
 	padding-top: 20px;
 }
 
-.footer{
+.footer {
 	height: 170px;
     background-color: #C70039; 
-    opacity: 0.8; 
+    opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -100,7 +103,7 @@ p {
 	margin: 10px 0px;
 }
 
-.mapa p, i{
+.mapa p, i {
 	font-size: 25px;
 }
 
@@ -117,16 +120,16 @@ p {
  	margin-top: 20px;
 }
 
-.redesSociales i, a{
+.redesSociales i, a {
 	font-size: 20px;
 	color: black;
 }
 
-.redesSociales h4{
+.redesSociales h4 {
 	font-size: 25px;
 }
 
-.redesSociales a:hover{
+.redesSociales a:hover {
 	color: grey;
 	font-weight: bold;
 	text-decoration: none;
