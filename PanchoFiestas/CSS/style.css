@@ -186,18 +186,18 @@ legend {
 
 .footer {
   height: auto;
-    background-color: #C70039; 
-    opacity: 0.9; 
-    font-family: "Josefin Sans", sans-serif;
-    color: white;
+  background-color: #C70039; 
+  opacity: 0.9; 
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
 }
 
 .mapa {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  margin: 10px 0px;
+  margin: 15px 0px;
 }
 
 .mapa p, i{
@@ -205,7 +205,15 @@ legend {
 }
 
 .direccion {
-  margin-left: 30px;
+  margin: 15px;
+
+}
+
+.direccion a:hover {
+  color: #EAD2AC;
+  text-decoration: none;
+  font-weight: bold;
+
 }
 
 .redesSociales {
@@ -213,13 +221,14 @@ legend {
    flex-direction: column;
    justify-content: space-around;
    align-content: center;
-   align-items: flex-start;
+   align-items: flex-end;
    margin-top: 20px;
 }
 
 .redesSociales i, a {
   font-size: 20px;
   color: white;
+  text-align: left;
 }
 
 .redesSociales h4 {
@@ -227,7 +236,7 @@ legend {
 }
 
 .redesSociales a:hover {
-  color: black;
+  color: #EAD2AC;
   font-weight: bold;
   text-decoration: none;
 }
