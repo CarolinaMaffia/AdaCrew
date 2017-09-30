@@ -127,9 +127,10 @@
 
 .tamañoSlider {
   height: 450px;
+  margin-bottom: 40px;
 }
 .slider2 {
-  background-color: #FF6C96;
+  background-color: #D53069;
   margin-top:-20px;
   font-family: "Raleway", sans-serif;
 }
@@ -138,6 +139,7 @@
   font-size: 40px;
   margin: 30px 0;
   font-weight: bolder;
+  color: white;
 }
 
 .slider2 h3 {
@@ -191,20 +193,11 @@ legend {
 }
 
 .mapa {
-<<<<<<< HEAD
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 10px 0px;
-=======
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin: 10px 0px;
->>>>>>> c8798d32db5b5fb042368b2880181a56af130fdf
 }
 
 .mapa p, i{
@@ -212,19 +205,6 @@ legend {
 }
 
 .direccion {
-<<<<<<< HEAD
-	margin-left: 30px;
-	flex-shrink: 2;
-}
-
-.redesSociales {
- 	display: flex;
- 	flex-direction: column;
- 	justify-content: center;
- 	align-content: stretch;
- 	align-items: flex-end;
- 	margin-top: auto;
-=======
   margin-left: 30px;
 }
 
@@ -235,7 +215,6 @@ legend {
    align-content: center;
    align-items: flex-start;
    margin-top: 20px;
->>>>>>> c8798d32db5b5fb042368b2880181a56af130fdf
 }
 
 .redesSociales i, a {
@@ -248,26 +227,7 @@ legend {
 }
 
 .redesSociales a:hover {
-<<<<<<< HEAD
-	color: #EAD2AC;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-@media only screen and (max-width:320px) {
-
-.mapa {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 10px 0px;
-}
-
-=======
   color: black;
   font-weight: bold;
   text-decoration: none;
->>>>>>> c8798d32db5b5fb042368b2880181a56af130fdf
 }
