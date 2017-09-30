@@ -123,22 +123,20 @@
 	font-size: 20px;
 }
 
-.slider2 {
-	width: 100%;
-	height: 400px;
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-color: #000;
-	opacity: 0.5;
-}
-
-.slider1 div, .slider2 div {
+.slider1 div {
 	width: 100%;
 	height: 400px;
 
 	text-align: center;
 	padding: 150px;
+}
+
+.container-fluid {
+	background-color: #FF8EAC;
+}
+
+.tamañoSlider {
+  height: 450px;
 }
 
 form {
