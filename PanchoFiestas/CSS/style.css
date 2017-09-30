@@ -181,7 +181,8 @@ legend {
 .mapa {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 	align-items: center;
 	margin: 10px 0px;
 }
@@ -199,7 +200,7 @@ legend {
  	flex-direction: column;
  	justify-content: space-around;
  	align-content: center;
- 	align-items: flex-start;
+ 	align-items: flex-end;
  	margin-top: 20px;
 }
 
