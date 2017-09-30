@@ -72,7 +72,7 @@
   background-position: 0 -10px;
   height: 550px;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .slider1 h1 {
@@ -127,8 +127,6 @@
 
 .tamañoSlider {
   height: 450px;
-  margin-bottom: 60px;
-
 }
 .slider2 {
   background-color: #FF6C96;
@@ -139,9 +137,7 @@
 .slider2 h2 {
   font-size: 40px;
   margin: 30px 0;
-  font-weight: bold;
-  font-family:"Josefin Sans", sans-serif;
-
+  font-weight: bolder;
 }
 
 .slider2 h3 {
