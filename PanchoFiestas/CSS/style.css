@@ -1,11 +1,11 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .all {
-	width:100%;
-	height: 71px;
+  width:100%;
+  height: 71px;
     display: flex;
     flex-direction: row;
     background-color: #C70039; 
@@ -17,25 +17,25 @@
 }
 
 .all img {
-	margin-top: 5px;
-	margin-left: 25px;
+  margin-top: 5px;
+  margin-left: 25px;
 }
 
 .menu {
-	margin-right: 50px;
-	margin-top: 15px;
+  margin-right: 50px;
+  margin-top: 15px;
 }
 
 .menu ul>li {
-	display: inline-block;
-	font-size:23px;
-	font-family: "Josefin Sans", sans-serif;        
+  display: inline-block;
+  font-size:23px;
+  font-family: "Josefin Sans", sans-serif;        
 }
 
 .menu ul li a {
-	    color: white;
-	    padding: 28px 25px 23px ;
-	     z-index: 1;
+      color: white;
+      padding: 28px 25px 23px ;
+       z-index: 1;
  }
 
 .menu a:hover {
@@ -49,86 +49,102 @@
 }
 
 .menu ul li:hover ul {
-	z-index:2;
+  z-index:2;
     display: block;
     position: absolute;
 }
 
 .menu ul li ul li {
-	display: block;
-	background-color: #A10230;
-	padding-top: 30px;
+  display: block;
+  background-color: #A10230;
+  padding-top: 30px;
 }
 
 .fotosSalon {
-	padding-top: 71px;
+  padding-top: 71px;
 }
 
 .slider1 {
-	width: 100%;
-	background-image: url("../IMG/header.jpg");
-	background-attachment: fixed;
-	background-size: 100%;
-	background-position: 0 -10px;
-	height: 550px;
-	background-repeat: no-repeat;
-	opacity: 0.7;
+  width: 100%;
+  background-image: url("../IMG/header.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 0 -10px;
+  height: 550px;
+  background-repeat: no-repeat;
+  opacity: 0.7;
 }
 
 .slider1 h1 {
-	color: white;
-	font-size: 65px;
-	font-family: "Josefin Sans", sans-serif; 
-	padding: 50px;
+  color: white;
+  font-size: 65px;
+  font-family: "Josefin Sans", sans-serif; 
+  padding: 50px;
 }
 
 .quienesSomos {
-	width: 100%;
-	height: 400px;
-	color: #000;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	background-image: url("../IMG/garlands.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	opacity: 0.8;
-	margin: 100px 0px;
+  width: 100%;
+  height: 400px;
+  color: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../IMG/garlands.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  margin: 100px 0px;
 }
 
 .presentacion {
-	width: 80%;
-	height: 370px;
-	text-align: center;
-	font-weight: bolder;
+  width: 80%;
+  height: 370px;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .presentacion h2 {
-	margin-top: -1px;
-	font-family: "Raleway", sans-serif;
-	font-size: 50px;
-	font-weight: bolder;
+  margin-top: -1px;
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 .presentacion h3 {
-	font-family: "Raleway", sans-serif;
-	font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 
 .presentacion p {
-	line-height: 40px;
-	margin-top: 25px;
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 20px;
+  line-height: 40px;
+  margin-top: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
 }
 
+<<<<<<< HEAD
 .slider1 div {
 	width: 100%;
 	height: 400px;
+=======
+.slider2 {
+  width: 100%;
+  height: 400px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #000;
+  opacity: 0.5;
+}
 
-	text-align: center;
-	padding: 150px;
+.slider1 div, .slider2 div {
+  width: 100%;
+  height: 400px;
+>>>>>>> 1eadcb24ba0b04ab120a967e8a5545c860aa3131
+
+  text-align: center;
+  padding: 150px;
 }
 
 .container-fluid {
@@ -140,36 +156,36 @@
 }
 
 form {
-	z-index: 1;
-	font-family: "Josefin Sans", sans-serif;
+  z-index: 1;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .formu {
-	margin-top: 20px;
+  margin-top: 20px;
 
 }
 
 .ahre {
- 	background-image: url("../IMG/form3.jpg");
- 	background-attachment: fixed;
- 	background-position: top;
- 	background-repeat: no-repeat;
- 	font-weight: bold;
- 	font-size: 20px; 
+   background-image: url("../IMG/form3.jpg");
+   background-attachment: fixed;
+   background-position: top;
+   background-repeat: no-repeat;
+   font-weight: bold;
+   font-size: 20px; 
 }
 
 .opa {
-	opacity: 0.85;
+  opacity: 0.85;
 }
 
 
 legend {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 
 .footer {
-	height: auto;
+  height: auto;
     background-color: #C70039; 
     opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
@@ -177,41 +193,41 @@ legend {
 }
 
 .mapa {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px;
 }
 
 .mapa p, i{
-	font-size: 25px;
+  font-size: 25px;
 }
 
 .direccion {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .redesSociales {
- 	display: flex;
- 	flex-direction: column;
- 	justify-content: space-around;
- 	align-content: center;
- 	align-items: flex-start;
- 	margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-content: center;
+   align-items: flex-start;
+   margin-top: 20px;
 }
 
 .redesSociales i, a {
-	font-size: 20px;
-	color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .redesSociales h4 {
-	font-size: 25px;
+  font-size: 25px;
 }
 
 .redesSociales a:hover {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
