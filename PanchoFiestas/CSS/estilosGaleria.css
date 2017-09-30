@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding:0;
 	box-sizing: border-box;
@@ -60,12 +60,12 @@
 }
 
 
-.caja{
+.caja {
 	padding-top: 100px;
 	
 }
 
-.footer{
+.footer {
 	height: 170px;
     background-color: #C70039; 
     opacity: 0.9; 
@@ -98,16 +98,16 @@
  	margin-top: 20px;
 }
 
-.redesSociales i, a{
+.redesSociales i, a {
 	font-size: 20px;
 	color: black;
 }
 
-.redesSociales h4{
+.redesSociales h4 {
 	font-size: 25px;
 }
 
-.redesSociales a:hover{
+.redesSociales a:hover {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
