@@ -1,32 +1,4 @@
 * {
-	padding: 0;
-	margin: 0;
-}
-
-.all {
-	width:100%;
-	height: 71px;
-    display: flex;
-    flex-direction: row;
-    background-color: #C70039; 
-    opacity: 0.9;
-    justify-content:space-between;
-    align-items:center;
-    position: fixed;
-    z-index: 2;
-}
-
-.all img {
-	margin-top: 5px;
-	margin-left: 25px;
-}
-
-.menu {
-	margin-right: 50px;
-	margin-top: 15px;
-}
-
-* {
   padding: 0;
   margin: 0;
 }
@@ -37,7 +9,7 @@
     display: flex;
     flex-direction: row;
     background-color: #C70039; 
-    opacity: 0.8;
+    opacity: 0.9;
     justify-content:space-between;
     align-items:center;
     position: fixed;
@@ -61,14 +33,9 @@
 }
 
 .menu ul li a {
-<<<<<<< HEAD
       color: white;
-      padding: 28px 25px 23px 25px;
-=======
-	    color: white;
-	    padding: 28px 25px 23px ;
-	     z-index: 1;
->>>>>>> b924b0e485cfede3fa35e46e569e86f899deeb0d
+      padding: 28px 25px 23px ;
+       z-index: 1;
  }
 
 .menu a:hover {
@@ -88,15 +55,9 @@
 }
 
 .menu ul li ul li {
-<<<<<<< HEAD
   display: block;
   background-color: #A10230;
-  padding-top: 50px;
-=======
-	display: block;
-	background-color: #A10230;
-	padding-top: 30px;
->>>>>>> b924b0e485cfede3fa35e46e569e86f899deeb0d
+  padding-top: 30px;
 }
 
 .fotosSalon {
@@ -104,7 +65,6 @@
 }
 
 .slider1 {
-<<<<<<< HEAD
   width: 100%;
   background-image: url("../IMG/header.jpg");
   background-attachment: fixed;
@@ -112,16 +72,7 @@
   background-position: 0 -10px;
   height: 550px;
   background-repeat: no-repeat;
-=======
-	width: 100%;
-	background-image: url("../IMG/header.jpg");
-	background-attachment: fixed;
-	background-size: 100%;
-	background-position: 0 -10px;
-	height: 550px;
-	background-repeat: no-repeat;
-	opacity: 0.7;
->>>>>>> 0ad17dc40d0de8446f62cf68a252ddcebfe51304
+  opacity: 0.7;
 }
 
 .slider1 h1 {
@@ -132,9 +83,8 @@
 }
 
 .quienesSomos {
-<<<<<<< HEAD
   width: 100%;
-  height: 430px;
+  height: 400px;
   color: #000;
   display: flex;
   flex-flow: row wrap;
@@ -143,50 +93,22 @@
   background-image: url("../IMG/garlands.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 -30px;
   opacity: 0.8;
+  margin: 100px 0px;
 }
 
-.presentacion{
+.presentacion {
   width: 80%;
   height: 370px;
   text-align: center;
   font-weight: bolder;
 }
 
-.presentacion h2{
+.presentacion h2 {
   margin-top: -1px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-weight: bolder;
-=======
-	width: 100%;
-	height: 400px;
-	color: #000;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	background-image: url("../IMG/garlands.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	opacity: 0.8;
-	margin: 100px 0px;
-}
-
-.presentacion {
-	width: 80%;
-	height: 370px;
-	text-align: center;
-	font-weight: bolder;
-}
-
-.presentacion h2 {
-	margin-top: -1px;
-	font-family: "Raleway", sans-serif;
-	font-size: 50px;
-	font-weight: bolder;
->>>>>>> 0ad17dc40d0de8446f62cf68a252ddcebfe51304
 }
 
 .presentacion h3 {
@@ -248,13 +170,8 @@ legend {
 }
 
 
-<<<<<<< HEAD
-.footer{
-  height: 170px;
-=======
 .footer {
-	height: auto;
->>>>>>> 0ad17dc40d0de8446f62cf68a252ddcebfe51304
+  height: auto;
     background-color: #C70039; 
     opacity: 0.9; 
     font-family: "Josefin Sans", sans-serif;
@@ -286,33 +203,17 @@ legend {
    margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.redesSociales i, a{
+.redesSociales i, a {
   font-size: 20px;
   color: white;
 }
 
-.redesSociales h4{
+.redesSociales h4 {
   font-size: 25px;
 }
 
-.redesSociales a:hover{
+.redesSociales a:hover {
   color: black;
   font-weight: bold;
   text-decoration: none;
-=======
-.redesSociales i, a {
-	font-size: 20px;
-	color: white;
-}
-
-.redesSociales h4 {
-	font-size: 25px;
-}
-
-.redesSociales a:hover {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
->>>>>>> 0ad17dc40d0de8446f62cf68a252ddcebfe51304
 }
