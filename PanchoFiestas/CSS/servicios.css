@@ -33,15 +33,37 @@
 }
 
 .menu ul li a {
-	color: #514E52;
-    padding: 28px 25px 23px 25px;
-   
+      color: white;
+      padding: 28px 25px 21px ;
+      z-index: 1;
 }
 
 .menu a:hover {
     background-color: #A10230;
     transition: all .5s;
     text-decoration: none;
+}
+#hva{background-color: #A10230;
+}
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li:hover ul {
+  z-index:2;
+    display: block;
+    position: absolute;
+}
+
+.menu ul li ul li {
+  display: block;
+  background-color: #A10230;
+  
+}
+.menu ul li ul li a{
+  display: block;
+  padding:13px;
+  background-color:#C70039;
 }
 
 .catering {
