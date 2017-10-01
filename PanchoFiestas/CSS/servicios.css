@@ -33,9 +33,9 @@
 }
 
 .menu ul li a {
-	color: #514E52;
-    padding: 28px 25px 23px 25px;
-   
+      color: white;
+      padding: 28px 25px 21px ;
+      z-index: 1;
 }
 
 .menu a:hover {
@@ -43,6 +43,7 @@
     transition: all .5s;
     text-decoration: none;
 }
+#hva{background-color: #A10230;}
 
 .catering {
 	padding-top: 50px;
