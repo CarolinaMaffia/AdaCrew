@@ -3,6 +3,8 @@
   margin: 0;
 }
 
+
+/*********MENU**********/
 .all {
   width:100%;
   height: 71px;
@@ -51,6 +53,7 @@
   z-index:2;
     display: block;
     position: absolute;
+    margin-top: 16px;
 }
 
 .menu ul li ul li {
@@ -63,6 +66,9 @@
   padding:13px;
   background-color:#C70039;
   }
+
+
+/***************FOTOS SALON***************/
 
 .fotosSalon {
   padding-top: 71px;
@@ -86,6 +92,8 @@
   padding: 50px;
 }
 
+/****************QUIENES SOMOS*****************/
+
 .quienesSomos {
   width: 100%;
   height: 500px;
@@ -107,7 +115,6 @@
   width: 80%;
   height: 370px;
   text-align: center;
-  font-weight: bolder;
 }
 
 .presentacion h2 {
@@ -129,7 +136,14 @@
   font-size: 20px;
 }
 
+<<<<<<< HEAD
 .tamanioSlider {
+=======
+
+/***************SLIDER SERVICIOS****************/
+
+.tamañoSlider {
+>>>>>>> 5027d3ddfa46a9c516a7d5c2ef719cc069ad7a05
   height: 450px;
   margin-bottom: 40px;
 }
@@ -159,6 +173,51 @@
   padding: 150px;
 }
 
+/**************INSTALACIONES***************/
+
+#instalaciones {
+  background-color: #FFF;
+  text-align: center;
+  padding: 30px;
+}
+
+#instalaciones h3 {
+  font-family: "Raleway", sans-serif;  
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#instalaciones p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+#equipa {
+  display: block;
+  text-align: center;
+}
+
+#equipb {
+  display: block;
+  text-align: center;
+}
+
+.equip {
+  display: inline-block;
+  width: 30%;
+}
+
+.equip img {
+  border-radius: 50%;
+  background-color: #D53069;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+/****************FORMULARIO***************/
+
 form {
   z-index: 1;
   font-family: "Josefin Sans", sans-serif;
@@ -187,7 +246,7 @@ legend {
   font-size: 40px;
 }
 
-/*queries celulares*/
+/*****queries celulares*******/
 @media only screen and (max-width:320px) {
 
 .mapa {
