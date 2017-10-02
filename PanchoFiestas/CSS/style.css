@@ -96,7 +96,6 @@
 
 .quienesSomos {
   width: 100%;
-  height: 500px;
   color: #000;
   display: flex;
   flex-flow: row wrap;
@@ -107,13 +106,12 @@
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
-  margin: 50px 0;
+  padding: 5% 0 7% 0;
   
 }
 
 .presentacion {
   width: 80%;
-  height: 370px;
   text-align: center;
 }
 
@@ -122,11 +120,13 @@
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-weight: bolder;
+  margin-bottom: 3%;
 }
 
 .presentacion h3 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
+  margin-bottom: 3%;
 }
 
 .presentacion p {
@@ -174,42 +174,33 @@
 #instalaciones {
   background-color: #FFF;
   text-align: center;
-  padding: 30px;
+  padding: 3%;
 }
 
 #instalaciones h3 {
   font-family: "Raleway", sans-serif;  
   font-weight: bold;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 
 #instalaciones p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  padding-bottom: 40px;
-}
-
-#equipa {
-  display: block;
-  text-align: center;
-}
-
-#equipb {
-  display: block;
-  text-align: center;
+  padding-bottom: 4%;
 }
 
 .equip {
   display: inline-block;
-  width: 30%;
+  text-align: center;
+  margin-bottom: 2%;
+  width: 33%;
 }
 
 .equip img {
   border-radius: 50%;
   background-color: #D53069;
-  padding: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 
 /****************FORMULARIO***************/
@@ -240,20 +231,6 @@ form {
 
 legend {
   font-size: 40px;
-}
-
-/*****queries celulares*******/
-@media only screen and (max-width:320px) {
-
-.mapa {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 0px;
-}
-
 }
 
 .footer {
@@ -311,4 +288,35 @@ legend {
   color: #EAD2AC;
   font-weight: bold;
   text-decoration: none;
+}
+
+/*********queries tablets***********/
+
+@media only screen and (max-width: 900px) {
+
+  .equip {
+    width: 45%;
+  }
+
+}
+
+/*****queries celulares*******/
+
+@media only screen and (max-width:400px) {
+
+
+.equip {
+  display: block;
+  width: 100%;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+}
+
 }

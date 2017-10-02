@@ -107,7 +107,8 @@ p {
 
 .Fotografia {
 	width: 100%;
-	background-color: #FFF;
+	background-image: url("../IMG/iconos/glitter4.png");
+	background-size: 100%;
 	padding: 1% 2% 3% 2%;
 	text-align: center;
 	color: #444;
@@ -117,7 +118,6 @@ p {
     font-family: "Raleway", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    padding-top: 3%;
 }
 
 .Fotografia p {
@@ -128,7 +128,7 @@ p {
 
 .cuadro {
 	border-radius: 15%;
-	background-color: #A10230;
+	background-color: rgba(161,2,48,0.8);
 	padding: 1% 5%;
 }
 
@@ -151,6 +151,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-size: 30px;
     padding-bottom: 3%;
+    font-weight: bold;
 }
 
 .fotos h4 {
