@@ -53,6 +53,7 @@
   z-index:2;
     display: block;
     position: absolute;
+    margin-top: 24%;
 }
 
 .menu ul li ul li {
@@ -114,7 +115,6 @@
   width: 80%;
   height: 370px;
   text-align: center;
-  font-weight: bolder;
 }
 
 .presentacion h2 {
@@ -167,6 +167,49 @@
 
   text-align: center;
   padding: 150px;
+}
+
+/**************INSTALACIONES***************/
+
+#instalaciones {
+  background-color: #FFF;
+  text-align: center;
+  padding: 30px;
+}
+
+#instalaciones h3 {
+  font-family: "Raleway", sans-serif;  
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#instalaciones p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+#equipa {
+  display: block;
+  text-align: center;
+}
+
+#equipb {
+  display: block;
+  text-align: center;
+}
+
+.equip {
+  display: inline-block;
+  width: 30%;
+}
+
+.equip img {
+  border-radius: 50%;
+  background-color: #D53069;
+  padding: 5%;
+  margin-bottom: 5%;
 }
 
 /****************FORMULARIO***************/
