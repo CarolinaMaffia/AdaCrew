@@ -107,9 +107,10 @@ p {
 
 .Fotografia {
 	width: 100%;
-	background-color: #fff;
-	padding-top: 20px;
+	background-color: #FFF;
+	padding: 1% 2% 3% 2%;
 	text-align: center;
+	color: #444;
 }
 
 .Fotografia h2 {
@@ -122,12 +123,18 @@ p {
 .Fotografia p {
     font-family: "Josefin Sans", sans-serif;
 	font-size: 20px;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding: 3% 0;
+}
+
+.cuadro {
+	border-radius: 15%;
+	background-color: #A10230;
+	padding: 1% 5%;
 }
 
 .fotos {
 	padding: 0 10%;
+	color: #FFF;
 }
 
 .fotos img {
