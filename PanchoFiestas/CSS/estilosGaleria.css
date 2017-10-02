@@ -88,7 +88,13 @@
 	padding: 50px;
 	text-align: center;
 }
-	
+
+.caja img:hover{ 
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+    z-index: 1;
+}
+
 
 .footer {
 	height: 170px;
