@@ -28,7 +28,7 @@
 
 .menu ul>li {
 	display: inline-block;
-	font-size:23px;
+	font-size:20px;
 	font-family: "Josefin Sans", sans-serif;        
 }
 
@@ -74,7 +74,7 @@
 	padding-top: 70px;
 }
 .back{
-		background-image: url(../IMG/catering.jpg);
+		background-image: url("../IMG/catering.jpg");
 		background-repeat: no-repeat;
 
 }
@@ -100,19 +100,12 @@
 	margin-bottom: 30px;
 }
 
+/************ ANIMACION ************/
 
-h2, h3 {
-	font-family: "Raleway", sans-serif;
-}
-
-p {
-	font-family: "Josefin Sans", sans-serif;
-	font-size: 20px;
-}
 .Animacion {
 	     width: 100%;
 	     height: 1800px;
-	     background-color: ;
+	     background-color:;
 	     padding-top: 20px;
 }
 .animacion h2 {
@@ -138,16 +131,16 @@ p {
 
 .Fotografia {
 	width: 100%;
-	background-image: url("../IMG/iconos/glitter4.png");
-	background-size: 100%;
-	padding: 1% 2% 3% 2%;
+	padding: 4% 2% 3% 2%;
 	text-align: center;
 	color: #444;
+	background-image: url("../IMG/servicios/back.jpg");
+	
 }
 
 .Fotografia h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -157,25 +150,23 @@ p {
 	padding: 3% 0;
 }
 
-.cuadro {
-	border-radius: 5%;
-	background-color: rgba(161,2,48,0.8);
-	padding: 1% 5%;
-}
-
 .fotos {
-	padding: 0 10%;
-	color: #FFF;
+	color: #333;
+	border-radius: 5%;
+	background-color: rgba(227,39,93,0.2);
+	padding: 1% 3%;
+	margin-left: 6%;
 }
 
 .fotos img {
 	border-radius: 5%;
+	width: 90%;
 }
 
 .fotos p{
     font-family: "Josefin Sans", sans-serif;
-    width: 90%;
     margin-left: 5%;
+    width: 90%;
 }
 
 .fotos h3 {
@@ -190,9 +181,9 @@ p {
     font-size: 25px;
 }
 
-/*********inicio footer***********/
+/*********FOOTER***********/
+
 footer{
-  height: auto;
   padding: 1% 3%;
   background-color: #C70039; 
   opacity: 0.9; 
@@ -202,23 +193,20 @@ footer{
 
 .mapa-responsive{
     overflow:hidden;
-    padding-bottom: 12%;
+    padding-bottom: 14%;
     position:relative;
-    height:0;
 }
 .mapa-responsive iframe{
-    left:0;
-    top:0;
     height:100%;
     width:100%;
     position:absolute;
 }
 
-.direccion address{
+.direccion {
   font-size: 20px;
 }
 
-.direccion a, i{
+.direccion a {
   color: white;
 }
 
@@ -228,16 +216,16 @@ footer{
   font-weight: bolder;
 }
 
-.redes h3{
+.redesSociales h3{
   font-weight: bolder;
 }
 
-.redes i, a{
+.redesSociales a{
   font-size: 25px;
   color: white;
 }
 
-.redes i, a:hover{
+.redesSociales a:hover{
   color: #EAD2AC;
   text-decoration: none;
   font-weight: bolder;
@@ -245,7 +233,6 @@ footer{
 
 
 /*********fin footer***********/
-
 
 
 /*********queries tablets***********/
