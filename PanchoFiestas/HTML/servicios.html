@@ -12,6 +12,8 @@
 		<div class="contenedor">
 			<header class="all">
 				<a href="#"><img src="../IMG/pancho.png"></a>
+				<label for="toggle">&#9776;</label>
+				<input type="checkbox" id="toggle"/>
 				<nav class="menu">
 					<ul>
 						<li><a href="../index.html">Home</a></li>
@@ -19,9 +21,9 @@
 					</li>
 					<li><a href="#" id="hva">Servicios</a>
 					<ul>
-						<li><a href="HTML/servicios.html#fotografia">Fotografía</a></li>
-						<li><a href="HTML/servicios.html#catering">Catering</a></li>
-						<li><a href="HTML/servicios.html#animaciones">Animaciones</a></li>
+						<li><a href="servicios.html#fotografia">Fotografía</a></li>
+						<li><a href="servicios.html#catering">Catering</a></li>
+						<li><a href="servicios.html#animaciones">Animaciones</a></li>
 					</ul>
 				</li>
 				<li><a href="galeria.html">Galería</a></li>
@@ -93,47 +95,39 @@
 		</div>
 	</div>
 	<a name="animaciones"></a>
-	<section class="Animacion">
+	 <section class="container-fluid animacion">
 		<article>
-			<h2>Animadores y juegos</h2>
-			<div class="position">
-				<div class="izq">
-					<img class="serv" src="../IMG/servicios/plygrnd.jpg">
-				</div>
-				<div class="dere">
-					<h3>El pelotero</h3>
-					<p class="post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque, asperiores nostrum minus. Corporis esse molestias maxime, quos tempore sint. Id iste reiciendis sed corporis. Quam vitae, quos! Necessitatibus, officia!</p>
-				</div>
-			</div>
-			<div class="position">
-				<div class="izq">
-					<img class="serv" src="../IMG/servicios/plygrnd.jpg">
-				</div>
-				<div class="dere">
-					<h3>Los payasos Pepe y Mimi</h3>
-					<p class="post">Historias de circo, malabares, títeres, platos chinos, globología y juegos varios.</p>
-				</div>
-			</div>
-			<div class="position">
-				<div class="izq">
-					<img class="serv" src="../IMG/servicios/plygrnd.jpg">
-				</div>
-				<div class="dere">
-					<h3>El mago Dulcineo</h3>
-					<p class="post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cumque, asperiores nostrum minus. Corporis esse molestias maxime, quos tempore sint. Id iste reiciendis sed corporis. Quam vitae, quos! Necessitatibus, officia!</p>
-				</div>
-			</div>
-			<div class="position">
-				<div class="izq">
-					<img class="serv" src="../IMG/image01911-1024x682.jpg">
-				</div>
-				<div class="dere">
-					<h3>Los animadores</h3>
-					<p class="post">Juegos de adivina la película, seguí la canción, caras deformadas, memotest, juego de las diferencias, entre otros.</p>
-				</div>
-			</div>
-			
-		</article>
+		 <h2>Animadores y juegos</h2>
+		 <div class="row margin">
+			<div class="col-xs-12 col-md-5 border">
+					        <h3>El pelotero</h3>
+							<img class="serv" src="../IMG/servicios/plygrnd.jpg">
+							<p> Cuenta con una area designada para los mas pequeños y una para los mas grandes, super completa con toboganes.
+                            </p>
+						</div>
+						<div class="col-xs-12 col-md-5 border">
+						
+						<h3>Los payasos Pepe y Mimi</h3>
+							<img class="serv" src="../IMG/servicios/peymimi.jpg">
+							<p> Los payasos Pepe y MImi deleitaran a grandes y chicos con sus malabares, títeres, platos chinos, trucos con globos y juegos varios.</p>
+						</div>
+						</div>
+						<div class="row margin">
+						<div class="col-xs-12 col-md-5 border">
+					        
+					        <h3>El mago Dulcineo</h3>
+							<img class="serv" src="../IMG/servicios/dulcineo.jpg">
+							<p>Ademas de presentar los trucos clasicos como sacar a un conejo de su sombrero, el mago dulcineo, viene con un gran repertorio.</p>
+					</div>
+					        <div class="col-xs-12 col-md-5 border">
+					        <h3>Los animadores</h3>
+							<img class="serv" src="../IMG/image01911-1024x682.jpg">
+							<p>Juegos de adivina la película, seguí la canción, caras deformadas, memotest, juego de las diferencias, entre otros.</p>
+						</div>
+					</div>
+					</div>
+					
+				</article>
 	</section>
 	<a name="fotografia"></a>
 	
@@ -160,7 +154,6 @@
 			</div>
 		</article>
 	</section>
-	
 <!-- inicio footer -->
   <footer>
     <div class="container-fluid">
@@ -168,14 +161,14 @@
         <div class="col-md-4 col-sm-12 hidden-xs mapa-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8373702516737!2d-58.43482235534876!3d-34.58298136839953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40b4aa03b95377bf!2sGrupo+Vi-Da!5e0!3m2!1ses-419!2sar!4v1506294600365" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 direccion text-center">
+        <div class="col-md-4 col-sm-6 col-xs-12 text-center direccion">
           <h3>Encontranos en</h3>
           <a href="https://goo.gl/maps/3QvyvvraRVr"><i class="fa fa-map-marker" aria-hidden="true"></i> Avenida Siempreviva 742</a>
           
           <h3>Escribinos a:</h3>
           <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#"> info@panchoeventos.com</a>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12 redesSociales text-center">
+        <div class="col-md-4 col-sm-6 col-xs-12 text-center redesSociales">
           <h3>Seguinos en las redes</h3>
           <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook </a> <br>
           <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a> <br>
@@ -186,6 +179,6 @@
     </div>
   </footer>
   <!-- fin footer -->
-	<script src="https://use.fontawesome.com/1755d62274.js"></script>
+    <script src="https://use.fontawesome.com/1755d62274.js"></script>
 </body>
 </html>

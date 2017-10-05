@@ -1,132 +1,145 @@
 * {
-	margin: 0;
-	padding:0;
-	box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
 }
 
+/*********MENU**********/
+
 .all {
-	width:100%;
-	height: 71px;
-    display: flex;
-    flex-direction: row;
-    background-color: #C70039; 
-    opacity: 0.9;
-    justify-content:space-between;
-    align-items:center;
-    position: fixed;
-    z-index: 2;
+  width:100%;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  background-color: #C70039; 
+  opacity: 0.9;
+  justify-content:space-between;
+  align-items:center;
+  position: fixed;
+  z-index: 2;
 }
 
 .all img {
-	margin-top: 5px;
-	margin-left: 25px;
+  margin-top: 5px;
+  margin-left: 25px;
 }
 
 .menu {
-	margin-right: 50px;
-	margin-top: 15px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+label {
+  margin:0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display:none;
+}
+
+#toggle {
+  display: none;
 }
 
 .menu ul>li {
-	display: inline-block;
-	font-size:20px;
-	font-family: "Josefin Sans", sans-serif;        
+  display: inline-block;
+  font-size:20px;
+  font-family: "Josefin Sans", sans-serif;        
 }
 
 .menu ul li a {
-	color: white;
-   padding: 28px 25px 23px 25px;
+  color: white;
+  padding: 28px 25px 23px ;
+  z-index: 1;
 }
 
 .menu a:hover {
-    background-color: #A10230;
-    transition: all .5s;
-    text-decoration: none;
+  background-color: #A10230;
+  transition: all .5s;
+  text-decoration: none;
 }
-#hva {
-	background-color: #A10230;
-}
+
 .menu ul li ul {
-    display: none;
+  display: none;
 }
 
 .menu ul li:hover ul {
-	z-index:2;
-    display: block;
-    position: absolute;
-    margin-top: 16px;
+  z-index:2;
+  display: block;
+  position: absolute;
+  margin-top: 16px;
 }
 
 .menu ul li ul li {
-	display: block;
-	background-color: #A10230;
-	
+  display: block;
+  background-color: #A10230;
 }
+
 .menu ul li ul li a{
   display: block;
-  padding:13px;
+  padding:20px 7px 10px;
   background-color:#C70039;
-  }
-
-.caja {
-	padding-top: 60px;
-	padding-bottom: 50px;
-}	
-
-.titulo {
-	background-image: url("../IMG/1.png");
-	background-size: 100%;
-	height: 250px;
-	background-repeat: no-repeat;
-	line-height: 40px;
-	margin-top: 10px; 
 }
 
+/********** Inicio body *********/
+
+.caja {
+  padding-top: 60px;
+  padding-bottom: 50px;
+} 
+
+.titulo {
+  background-image: url("../IMG/1.png");
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  line-height: 40px;
+  margin-top: 10px; 
+}
 
 .caja h1 {
-	color: black;
-	font-size: 80px;
-	font-family: "Josefin Sans", sans-serif; 
-	padding: 50px;
-	text-align: center;
+  color: black;
+  font-size: 80px;
+  font-family: "Josefin Sans", sans-serif; 
+  padding: 50px;
+  text-align: center;
 }
 
 .caja img:hover { 
-    -webkit-transform: scale(2.5);
-    transform: scale(2.5);
-    z-index: 1;
-    border: 3px solid white;
+  -webkit-transform: scale(2.5);
+  transform: scale(2.5);
+  z-index: 1;
+  border: 3px solid white;
 }
+
 /*********inicio footer***********/
+
 footer{
   padding: 1% 3%;
   background-color: #C70039;
   opacity: 0.9; 
   font-family: "Josefin Sans", sans-serif;
   color: white;
+  font-size: 17px;
 }
 
 footer h3{
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .mapa-responsive{
-    overflow:hidden;
-    padding-bottom: 10%;
-    position:relative;
-    height:0;
-}
-.mapa-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+  overflow:hidden;
+  padding-bottom: 15%;
+  position:relative;
 }
 
-.direccion strong, p, i{
-  font-size: 20px;
+.mapa-responsive iframe{
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.direccion a {
   color: white;
 }
 
@@ -136,22 +149,17 @@ footer h3{
   font-weight: bolder;
 }
 
-
-.redes i, a{
-  font-size: 20px;
+.redesSociales a{
   color: white;
 }
 
-.redes i, a:hover{
+.redesSociales a:hover{
   color: #EAD2AC;
   text-decoration: none;
   font-weight: bolder;
 }
 
-
 /*********fin footer***********/
-
-
 
 /*********queries tablets***********/
 
@@ -161,17 +169,25 @@ footer h3{
     width: 45%;
   }
 
-
+  .direccion {
+    text-align: center;
+  }
 }
 
 /*****queries celulares*******/
 
 @media only screen and (max-width:400px) {
 
+  .equip {
+    display: block;
+    width: 100%;
+  }
 
-.equip {
-  display: block;
-  width: 100%;
-}
+  .mapa-responsive{
+    display: none;
+  }
 
+  .direccion{
+    text-align: center;
+  }
 }
