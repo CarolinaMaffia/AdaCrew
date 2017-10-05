@@ -6,14 +6,14 @@
 .all {
 	width:100%;
 	height: 71px;
-  display: flex;
-  flex-direction: row;
-  background-color: #C70039; 
-  opacity: 0.9;
-  justify-content:space-between;
-  align-items:center;
-  position: fixed;
-  z-index: 2;
+    display: flex;
+    flex-direction: row;
+    background-color: #C70039; 
+    opacity: 0.9;
+    justify-content:space-between;
+    align-items:center;
+    position: fixed;
+    z-index: 2;
 }
 
 .all img {
@@ -25,14 +25,7 @@
 	margin-right: 50px;
 	margin-top: 15px;
 }
-label{
-  margin:0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
-  display:none;
-}
-#toggle{display: none;
-}
+
 .menu ul>li {
 	display: inline-block;
 	font-size:20px;
@@ -62,7 +55,7 @@ label{
   z-index:2;
     display: block;
     position: absolute;
-    margin-top: 1.1%;
+    margin-top: 16px;
 }
 
 .menu ul li ul li {
@@ -72,7 +65,7 @@ label{
 }
 .menu ul li ul li a{
   display: block;
-  padding:20px 4px 10px 0;
+  padding:13px;
   background-color:#C70039;
 }
 
@@ -109,43 +102,30 @@ label{
 
 /************ ANIMACION ************/
 
-.animacion {
-       width: 100%;
-       padding: 2% 2% 3% 2%;
-       text-align: center;
-       background-color:#FECCFF;
+.Animacion {
+	     width: 100%;
+	     height: 1800px;
+	     background-color:;
+	     padding-top: 20px;
 }
 .animacion h2 {
-  font-size: 45px;
-  color:grey;
-  font-weight: bold;
-  font-family:"Raleway", sans-serif; 
+	font-size: 40px;
+    display: flex;
+    justify-content: center;
 }
-.animacion h3{
-  font-weight:bold;
-  font-size: 29px;
-  color: #C70039;
-  font-family:"Raleway", sans-serif;
+.position {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:30px 100px 50px 60px;
+}
+.dere { 
+	width: 40%; 
 }
 .serv {
-  width: 80%;
-  height: 300px;
-    border-radius: 5%;
-
+	width: 400px;
+    height: 350px;
 }
-.animacion p{
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
-  padding: 3% 0;
-}
-.margin{ padding: 2% 2% 3% 9%; 
-}
-.border{ border:3px solid white;
-         margin-left: 2%; 
-         margin-right: 4%;
-         margin-bottom: 2%;
-}
-
 
 /**************FOTOGRAFIA**************/
 
@@ -201,32 +181,36 @@ label{
     font-size: 25px;
 }
 
-/*********FOOTER***********/
-
+/*********inicio footer***********/
 footer{
   padding: 1% 3%;
-  background-color: #C70039; 
+  background-color: #C70039;
   opacity: 0.9; 
   font-family: "Josefin Sans", sans-serif;
   color: white;
 }
 
+footer h3{
+  font-weight: bolder;
+  font-size: 28px;
+}
+
 .mapa-responsive{
     overflow:hidden;
-    padding-bottom: 14%;
+    padding-bottom: 10%;
     position:relative;
+    height:0;
 }
 .mapa-responsive iframe{
+    left:0;
+    top:0;
     height:100%;
     width:100%;
     position:absolute;
 }
 
-.direccion {
+.direccion strong, p, i{
   font-size: 20px;
-}
-
-.direccion a {
   color: white;
 }
 
@@ -236,16 +220,13 @@ footer{
   font-weight: bolder;
 }
 
-.redesSociales h3{
-  font-weight: bolder;
-}
 
-.redesSociales a{
-  font-size: 25px;
+.redes i, a{
+  font-size: 20px;
   color: white;
 }
 
-.redesSociales a:hover{
+.redes i, a:hover{
   color: #EAD2AC;
   text-decoration: none;
   font-weight: bolder;
@@ -255,21 +236,13 @@ footer{
 /*********fin footer***********/
 
 
+
 /*********queries tablets***********/
 
 @media only screen and (max-width: 900px) {
 
   .equip {
     width: 45%;
-  }
-
-   .mapa-responsive{
-    
-  }
-
-  .direccion {
-    text-align: center;
-
   }
 
 
@@ -284,13 +257,5 @@ footer{
   display: block;
   width: 100%;
 }
-
-  .mapa-responsive{
-    display: none;
-  }
-
-  .direccion{
-    text-align: center;
-  }
 
 }
