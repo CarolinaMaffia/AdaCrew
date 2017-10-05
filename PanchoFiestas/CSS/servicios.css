@@ -4,16 +4,16 @@
 }
 
 .all {
-	  width:100%;
-	  height: 71px;
-    display: flex;
-    flex-direction: row;
-    background-color: #C70039; 
-    opacity: 0.9;
-    justify-content:space-between;
-    align-items:center;
-    position: fixed;
-    z-index: 2;
+	width:100%;
+	height: 71px;
+  display: flex;
+  flex-direction: row;
+  background-color: #C70039; 
+  opacity: 0.9;
+  justify-content:space-between;
+  align-items:center;
+  position: fixed;
+  z-index: 2;
 }
 
 .all img {
@@ -35,7 +35,7 @@ label{
 }
 .menu ul>li {
 	display: inline-block;
-	font-size:23px;
+	font-size:20px;
 	font-family: "Josefin Sans", sans-serif;        
 }
 
@@ -72,7 +72,7 @@ label{
 }
 .menu ul li ul li a{
   display: block;
-  padding:20px 4px 10px;
+  padding:20px 4px 10px 0;
   background-color:#C70039;
 }
 
@@ -110,13 +110,13 @@ label{
 /************ ANIMACION ************/
 
 .animacion {
-	     width: 100%;
+       width: 100%;
        padding: 2% 2% 3% 2%;
        text-align: center;
-	     background-color:#FECCFF;
+       background-color:#FECCFF;
 }
 .animacion h2 {
-	font-size: 45px;
+  font-size: 45px;
   color:grey;
   font-weight: bold;
   font-family:"Raleway", sans-serif; 
@@ -201,36 +201,32 @@ label{
     font-size: 25px;
 }
 
-/*********inicio footer***********/
+/*********FOOTER***********/
+
 footer{
   padding: 1% 3%;
-  background-color: #C70039;
+  background-color: #C70039; 
   opacity: 0.9; 
   font-family: "Josefin Sans", sans-serif;
   color: white;
 }
 
-footer h3{
-  font-weight: bolder;
-  font-size: 28px;
-}
-
 .mapa-responsive{
     overflow:hidden;
-    padding-bottom: 10%;
+    padding-bottom: 14%;
     position:relative;
-    height:0;
 }
 .mapa-responsive iframe{
-    left:0;
-    top:0;
     height:100%;
     width:100%;
     position:absolute;
 }
 
-.direccion strong, p, i{
+.direccion {
   font-size: 20px;
+}
+
+.direccion a {
   color: white;
 }
 
@@ -240,13 +236,16 @@ footer h3{
   font-weight: bolder;
 }
 
+.redesSociales h3{
+  font-weight: bolder;
+}
 
-.redes i, a{
-  font-size: 20px;
+.redesSociales a{
+  font-size: 25px;
   color: white;
 }
 
-.redes i, a:hover{
+.redesSociales a:hover{
   color: #EAD2AC;
   text-decoration: none;
   font-weight: bolder;
@@ -256,13 +255,21 @@ footer h3{
 /*********fin footer***********/
 
 
-
 /*********queries tablets***********/
 
 @media only screen and (max-width: 900px) {
 
   .equip {
     width: 45%;
+  }
+
+   .mapa-responsive{
+    
+  }
+
+  .direccion {
+    text-align: center;
+
   }
 
 
@@ -278,7 +285,6 @@ footer h3{
   width: 100%;
 }
 
-
   .mapa-responsive{
     display: none;
   }
@@ -286,27 +292,5 @@ footer h3{
   .direccion{
     text-align: center;
   }
-  .all img{
-         margin-left:80%;
-         width:60%;
-         height:45%;
-}
-.menu{text-align: center;
-      width: 100%;
-      display: none;
-}
-.menu ul li a{display: block;
-        border-bottom: 1px solid #EAEAEB;
-}
-label{display:block;
-      cursor: pointer;
-      width: 26px;
-      justify-content: flex-end;
-}
-#toggle:checked + .menu{
-   display: block;
-}
-
-
 
 }
