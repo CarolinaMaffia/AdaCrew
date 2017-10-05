@@ -4,8 +4,8 @@
 }
 
 .all {
-	width:100%;
-	height: 71px;
+	  width:100%;
+	  height: 71px;
     display: flex;
     flex-direction: row;
     background-color: #C70039; 
@@ -25,10 +25,17 @@
 	margin-right: 50px;
 	margin-top: 15px;
 }
-
+label{
+  margin:0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display:none;
+}
+#toggle{display: none;
+}
 .menu ul>li {
 	display: inline-block;
-	font-size:20px;
+	font-size:23px;
 	font-family: "Josefin Sans", sans-serif;        
 }
 
@@ -55,7 +62,7 @@
   z-index:2;
     display: block;
     position: absolute;
-    margin-top: 16px;
+    margin-top: 1.1%;
 }
 
 .menu ul li ul li {
@@ -65,7 +72,7 @@
 }
 .menu ul li ul li a{
   display: block;
-  padding:13px;
+  padding:20px 4px 10px;
   background-color:#C70039;
 }
 
@@ -102,30 +109,43 @@
 
 /************ ANIMACION ************/
 
-.Animacion {
+.animacion {
 	     width: 100%;
-	     height: 1800px;
-	     background-color:;
-	     padding-top: 20px;
+       padding: 2% 2% 3% 2%;
+       text-align: center;
+	     background-color:#FECCFF;
 }
 .animacion h2 {
-	font-size: 40px;
-    display: flex;
-    justify-content: center;
+	font-size: 45px;
+  color:grey;
+  font-weight: bold;
+  font-family:"Raleway", sans-serif; 
 }
-.position {
-	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
-	padding:30px 100px 50px 60px;
-}
-.dere { 
-	width: 40%; 
+.animacion h3{
+  font-weight:bold;
+  font-size: 29px;
+  color: #C70039;
+  font-family:"Raleway", sans-serif;
 }
 .serv {
-	width: 400px;
-    height: 350px;
+  width: 80%;
+  height: 300px;
+    border-radius: 5%;
+
 }
+.animacion p{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding: 3% 0;
+}
+.margin{ padding: 2% 2% 3% 9%; 
+}
+.border{ border:3px solid white;
+         margin-left: 2%; 
+         margin-right: 4%;
+         margin-bottom: 2%;
+}
+
 
 /**************FOTOGRAFIA**************/
 
@@ -272,5 +292,26 @@ footer{
   .direccion{
     text-align: center;
   }
+  .all img{
+         margin-left:80%;
+         width:60%;
+         height:45%;
+}
+.menu{text-align: center;
+      width: 100%;
+      display: none;
+}
+.menu ul li a{display: block;
+        border-bottom: 1px solid #EAEAEB;
+}
+label{display:block;
+      cursor: pointer;
+      width: 26px;
+      justify-content: flex-end;
+}
+#toggle:checked + .menu{
+   display: block;
+}
+
 
 }
