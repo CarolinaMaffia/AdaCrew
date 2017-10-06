@@ -305,6 +305,26 @@ footer h3{
 /*****queries celulares*******/
 
 @media only screen and (max-width:400px) {
+.all img{
+         margin-left:80%;
+         width:60%;
+         height:45%;
+}
+.menu{text-align: center;
+      width: 100%;
+      display: none;
+}
+.menu ul li a{display: block;
+        border-bottom: 1px solid #EAEAEB;
+}
+label{display:block;
+      cursor: pointer;
+      width: 26px;
+      justify-content: flex-end;
+}
+#toggle:checked + .menu{
+   display: block;
+}
 
   .equip {
     display: block;

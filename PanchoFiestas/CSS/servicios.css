@@ -117,12 +117,16 @@ label {
   width: 100%;
   padding: 2% 2% 3% 2%;
   text-align: center;
-  background-color:#FECCFF;
+  background-image:url(../IMG/servicios/seccion3.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  z-index: 2;
 }
 
 .animacion h2 {
   font-size: 45px;
-  color:grey;
+  color:#2F2E2E;
   font-weight: bold;
   font-family:"Raleway", sans-serif; 
 }
@@ -151,8 +155,11 @@ label {
 }
 
 .border{
+  background-color:#FBE3F3;
   border:3px solid white;
   margin: 0 4% 2% 2%;
+  opacity: 0.8;
+  z-index: 1;
 }
 
 /**************FOTOGRAFIA**************/
@@ -274,7 +281,26 @@ footer h3{
 /*****queries celulares*******/
 
 @media only screen and (max-width:400px) {
-
+.all img{
+         margin-left:80%;
+         width:60%;
+         height:45%;
+}
+.menu{text-align: center;
+      width: 100%;
+      display: none;
+}
+.menu ul li a{display: block;
+        border-bottom: 1px solid #EAEAEB;
+}
+label{display:block;
+      cursor: pointer;
+      width: 26px;
+      justify-content: flex-end;
+}
+#toggle:checked + .menu{
+   display: block;
+}
   .equip {
     display: block;
     width: 100%;
