@@ -120,14 +120,6 @@ label {
 >>>>>>> 22e50619d1bce014603b349f7ca005d748d35917
 }
 
-<<<<<<< HEAD
-.footer {
-	height: 170px;
-    background-color: #C70039; 
-    opacity: 0.9; 
-    font-family: "Josefin Sans", sans-serif;
-    color: white;
-=======
 /*********inicio footer***********/
 
 footer{
@@ -142,7 +134,6 @@ footer{
 footer h3{
   font-weight: bolder;
   font-size: 22px;
->>>>>>> master
 }
 
 .mapa-responsive{
@@ -181,11 +172,7 @@ footer h3{
 
 /*********queries tablets***********/
 
-@media only screen and (max-width: 900px) {
-
-  .equip {
-    width: 45%;
-  }
+@media only screen and (max-width: 800px) {
 
   .direccion {
     text-align: center;
@@ -195,7 +182,8 @@ footer h3{
 /*****queries celulares*******/
 
 @media only screen and (max-width:400px) {
-.all img{
+  
+  .all img{
          margin-left:80%;
          width:60%;
          height:45%;
@@ -215,10 +203,6 @@ label{display:block;
 #toggle:checked + .menu{
    display: block;
 }
-  .equip {
-    display: block;
-    width: 100%;
-  }
 
   .mapa-responsive{
     display: none;
