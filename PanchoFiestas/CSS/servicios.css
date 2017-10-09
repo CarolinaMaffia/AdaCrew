@@ -190,8 +190,7 @@ label {
 
 .fotos p{
   font-family: "Josefin Sans", sans-serif;
-  margin-left: 5%;
-  width: 95%;
+  padding: 5%;
 }
 
 .fotos h3 {

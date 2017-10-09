@@ -93,13 +93,14 @@ label{
   background-position: 0 -10px;
   height: 550px;
   background-repeat: no-repeat;
+  margin-top: 20px;
   opacity: 0.8;
 }
 
 .slider1 h1 {
-  font-size: 65px;
-  font-family: "Josefin Sans", sans-serif; 
-  padding: 16% 25%;
+  font-size: 80px;
+  font-family: 'Quicksand', sans-serif; 
+  padding: 3% 2%;
   color: #FFF;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #D1305D;
