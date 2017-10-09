@@ -83,6 +83,7 @@ label {
 
 .catering {
   padding-top: 70px;
+  font-family:"Raleway", sans-serif;
 }
 
 .back{
@@ -103,8 +104,9 @@ label {
 }
 
 .catering ul li {
-  margin-left: 5px;
+  margin-left: 15px;
   text-align: left;
+
 }
 
 .catering p {
