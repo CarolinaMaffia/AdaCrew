@@ -119,10 +119,7 @@ label {
   width: 100%;
   padding: 2% 2% 3% 2%;
   text-align: center;
-  background-image:url(../IMG/servicios/seccion3.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-attachment: fixed;
+  background-color: #fff;
   z-index: 2;
 }
 
