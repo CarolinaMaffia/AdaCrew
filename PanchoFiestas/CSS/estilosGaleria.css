@@ -105,19 +105,14 @@ label {
 }
 
 .caja img:hover { 
-<<<<<<< HEAD
+
     -webkit-transform: scale(2.5);
     transform: scale(2.5);
     z-index: 1;
     border: 3px solid white;
     display: flex;
     justify-content: center;
-=======
-  -webkit-transform: scale(2.5);
-  transform: scale(2.5);
-  z-index: 1;
-  border: 3px solid white;
->>>>>>> 22e50619d1bce014603b349f7ca005d748d35917
+
 }
 
 /*********inicio footer***********/
