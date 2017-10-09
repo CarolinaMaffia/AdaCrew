@@ -82,7 +82,7 @@ label{
 /***************FOTOS SALON***************/
 
 .fotosSalon {
-  padding-top: 71px;
+  padding-top: 4%;
 }
 
 .slider1 {
@@ -97,10 +97,12 @@ label{
 }
 
 .slider1 h1 {
-  color: white;
   font-size: 65px;
   font-family: "Josefin Sans", sans-serif; 
-  padding: 50px;
+  padding: 16% 25%;
+  color: #FFF;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #D1305D;
 }
 
 /****************QUIENES SOMOS*****************/
@@ -293,6 +295,26 @@ footer h3{
 
 @media only screen and (max-width: 900px) {
 
+  .slider1 {
+    background-position: 30%;
+    background-size: 300%;
+    height: 400px;
+  }
+
+  .slider1 h1 {
+    margin: 0 2%;
+    padding: 25% 10%;
+  }
+
+  .quienesSomos {
+    background-size: 250%;
+    background-repeat: repeat;
+  }
+
+  .presentacion h2 {
+    display: block;    
+  }
+
   .equip {
    width: 45%;
   }
@@ -330,10 +352,32 @@ label{display:block;
 #toggle:checked + .menu{
    display: block;
 }
+
 .menu ul li:hover ul {
   display: none;
 }
-.equip {
+.slider1 {
+    background-size: 280%;
+    height: 300px;
+  }
+
+  .slider1 h1 {
+    font-size: 50px;
+    margin: 0 10%;
+    padding: 22% 7% 0 7%;
+  }
+
+  .presentacion h2 {
+    margin: 15px 0 0 -15px;
+    padding: 1%;
+  }
+
+  .presentacion p{
+    padding: 1%;
+    margin: 5% 0 5% 0;    
+  }
+
+  .equip {
     display: block;
     width: 100%;
   }
