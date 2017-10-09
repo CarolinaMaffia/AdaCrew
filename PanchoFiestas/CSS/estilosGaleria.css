@@ -82,30 +82,39 @@ label {
 
 /********** Inicio body *********/
 
+.galeria{ 
+  background-image: url("../IMG/globos1.jpg");
+  background-repeat: repeat;
+ }
 .caja {
   padding-top: 60px;
   padding-bottom: 50px;
+
 } 
 
 .titulo {
-  background-image: url("../IMG/1.png");
-  background-size: 100%;
-  height: 250px;
-  background-repeat: no-repeat;
+
+
+  height: 200px;
+
   line-height: 40px;
   margin-top: 10px; 
-}
-   
+}   
 
 .caja h1 {
-  color: black;
+  color: #F5A2A5; /*#2C61E0*/
   font-size: 80px;
   font-family: "Josefin Sans", sans-serif; 
+   text-shadow:
+   -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px 1px 0 black,
+    1px 1px 0 black;
   padding: 50px;
   text-align: center;
 }
 
-zoom {      
+.zoom {      
 -webkit-transition: all 0.35s ease-in-out;    
 -moz-transition: all 0.35s ease-in-out;    
 transition: all 0.35s ease-in-out;     
@@ -116,11 +125,11 @@ cursor: zoom-in;
 }     
 
 .zoom:hover,.zoom:active,.zoom:focus {
--ms-transform: scale(2.5);    
--moz-transform: scale(2.5);  
--webkit-transform: scale(2.5);  
--o-transform: scale(2.5);  
-transform: scale(2.5);    
+-ms-transform: scale(2.3);    
+-moz-transform: scale(2.3);  
+-webkit-transform: scale(2.3);  
+-o-transform: scale(2.3);  
+transform: scale(2.3);    
 position:relative;      
 z-index:100;  
 }
@@ -182,6 +191,7 @@ footer h3{
   .direccion {
     text-align: center;
   }
+
 }
 
 /*****queries celulares*******/
@@ -217,3 +227,4 @@ label{display:block;
     text-align: center;
   }
 }
+
