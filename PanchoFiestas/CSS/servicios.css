@@ -118,28 +118,23 @@ label {
 .animacion {
   width: 100%;
   padding: 2% 2% 3% 2%;
-  text-align: center;
   background-color: #fff;
-  z-index: 2;
+  font-family:"Raleway", sans-serif;
 }
 
 .animacion h2 {
   font-size: 45px;
   color:#2F2E2E;
-  font-weight: bold;
-  font-family:"Raleway", sans-serif; 
+  font-weight: bold; 
 }
 
 .animacion h3{
   font-weight:bold;
   font-size: 29px;
   color: #C70039;
-  font-family:"Raleway", sans-serif;
 }
 
 .serv {
-  width: 80%;
-  height: 300px;
   border-radius: 5%;
 }
 
@@ -148,17 +143,11 @@ label {
   font-size: 20px;
   padding: 3% 0;
 }
-
-.margin{
-  padding: 2% 2% 3% 9%; 
-}
-
 .border{
   background-color:#FBE3F3;
-  border:3px solid white;
-  margin: 0 4% 2% 2%;
-  opacity: 0.8;
-  z-index: 1;
+  padding: 6% 3% 3% 3%;
+}
+.col{margin: 0% 4% 5% 4%;
 }
 
 /**************FOTOGRAFIA**************/
