@@ -82,14 +82,14 @@ label{
 /***************FOTOS SALON***************/
 
 .fotosSalon {
-  padding-top: 4%;
+  padding-top: 51px;
 }
 
 .slider1 {
   width: 100%;
   background-image: url("../IMG/header.jpg");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: 120%;
   background-position: 0 -10px;
   height: 550px;
   background-repeat: no-repeat;
@@ -99,8 +99,9 @@ label{
 
 .slider1 h1 {
   font-size: 80px;
+  font-weight: bold;
   font-family: 'Quicksand', sans-serif; 
-  padding: 3% 2%;
+  margin: 30px 20px;
   color: #FFF;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #D1305D;
@@ -303,8 +304,8 @@ footer h3{
   }
 
   .slider1 h1 {
-    margin: 0 2%;
-    padding: 25% 10%;
+    margin: -20px -90px;
+    font-size: 60px;
   }
 
   .quienesSomos {
@@ -358,24 +359,25 @@ label{display:block;
   display: none;
 }
 .slider1 {
-    background-size: 280%;
+    background-size: 380%;
     height: 300px;
   }
 
   .slider1 h1 {
-    font-size: 50px;
-    margin: 0 10%;
-    padding: 22% 7% 0 7%;
+    font-size: 35px;
+    margin: -45px -80px;
   }
 
   .presentacion h2 {
     margin: 15px 0 0 -15px;
     padding: 1%;
+    font-size: 40px;
   }
 
   .presentacion p{
     padding: 1%;
-    margin: 5% 0 5% 0;    
+    margin: 30px 0;
+    font-size: 18px; 
   }
 
   .equip {
