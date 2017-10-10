@@ -111,14 +111,6 @@ label {
   border: 3px solid white;
 }
 
-<<<<<<< HEAD
-.footer {
-	height: 170px;
-    background-color: #C70039; 
-    opacity: 0.9; 
-    font-family: "Josefin Sans", sans-serif;
-    color: white;
-=======
 /*********inicio footer***********/
 
 footer{
@@ -133,7 +125,6 @@ footer{
 footer h3{
   font-weight: bolder;
   font-size: 22px;
->>>>>>> master
 }
 
 .mapa-responsive{
