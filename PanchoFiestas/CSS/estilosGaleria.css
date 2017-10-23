@@ -83,9 +83,10 @@ label {
 /********** Inicio body *********/
 
 .galeria{ 
-  background-image: url("../IMG/globos1.jpg");
+  background-image: url("../IMG/catering.jpg/");
   background-repeat: repeat;
  }
+
 .caja {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -121,15 +122,14 @@ transition: all 0.35s ease-in-out;
 cursor: -webkit-zoom-in;      
 cursor: -moz-zoom-in;      
 cursor: zoom-in; 
-: none; 
 }     
 
 .zoom:hover,.zoom:active,.zoom:focus {
--ms-transform: scale(2.3);    
--moz-transform: scale(2.3);  
--webkit-transform: scale(2.3);  
--o-transform: scale(2.3);  
-transform: scale(2.3);    
+-ms-transform: scale(2.5);    
+-moz-transform: scale(2.5);  
+-webkit-transform: scale(2.5);  
+-o-transform: scale(2.5);  
+transform: scale(2.5);    
 position:relative;      
 z-index:100;  
 }
@@ -192,6 +192,16 @@ footer h3{
     text-align: center;
   }
 
+  .zoom:hover,.zoom:active,.zoom:focus {
+-ms-transform: scale(1);    
+-moz-transform: scale(1);  
+-webkit-transform: scale(1);  
+-o-transform: scale(1);  
+transform: scale(1);    
+position:relative;      
+z-index:0;  
+}
+
 }
 
 /*****queries celulares*******/
@@ -225,6 +235,22 @@ label{display:block;
 
   .direccion{
     text-align: center;
+  }
+
+.zoom:hover,.zoom:active,.zoom:focus {
+-ms-transform: scale(1);    
+-moz-transform: scale(1);  
+-webkit-transform: scale(1);  
+-o-transform: scale(1);  
+transform: scale(1);    
+position:relative;      
+z-index:0;  
+}
+
+
+
+.caja h1 {
+    font-size: 60px;
   }
 }
 
