@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway|Quicksand" rel="stylesheet">
+    <script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="JS/myScript.js"></script>
     
     <title>Pancho Eventos - Salon de fiestas infantiles</title>
   </head>
@@ -128,32 +130,34 @@
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
               <fieldset class="formu">
                 <legend class="text-center">¡Dejanos tu consulta!</legend>
-                <div class="form-group">
+                <div class="form-group containerNombre">
                   <div>
-                    <input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control input-md" required="">
-                    
+                    <input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control input-md" required=""> 
+                    <p class="notificacionNombre"></p>                   
                   </div>
                 </div>
                 <div class="form-group">
                   <div>
                     <input id="Apellido" name="Apellido" type="text" placeholder="Apellido" class="form-control input-md" required="">
+                    <p class="notificacionApellido"></p>
                     
                   </div>
                 </div>
                 <div class="form-group">
                   <div>
                     <input id="E-mail" name="E-mail" type="text" placeholder="E-mail" class="form-control input-md" required="">
-                    
+                    <p class="notificacionMail"></p>
                   </div>
                 </div>
                 
                 <div class="form-group">
                   <div>
                     <textarea class="form-control" id="Consulta" name="Consulta" placeholder="Consulta" rows="10"></textarea>
+                    <p class="notificacionConsulta"></p>
                   </div>
                 </div>
                 <div class="form-group text-center">
-                  <label class="control-label" for="boton"></label>
+                  <label class="control-label" for="boton"> </label>
                   <div>
                     <button id="boton" name="boton" class="btn btn-default">Enviar</button>
                   </div>
