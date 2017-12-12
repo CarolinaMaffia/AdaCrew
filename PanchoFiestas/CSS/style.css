@@ -387,10 +387,10 @@ footer h3{
   transform:translateY(-200%) rotate(135deg) !important;
 }
 
-.menuppal.is_active{
+.menu.is_active{
   transform: translate3d(0px, 0px, 0px);
 }
-.menuppal{
+.menu{
     height: 100%;
     position: fixed;
     transform: translate3d(0px, -100%, 0px);
@@ -404,18 +404,18 @@ footer h3{
 /*.menuppal ul{
   margin-top: 55px;
 }*/
-.menuppal ul li { 
+.menu ul li { 
   list-style: none;
   text-align:center;
 }
-.menuppal ul li a{
+.menu ul li a{
         display: block;
         width:400px; 
         border-bottom: 1px solid #EAEAEB;
         background-color:#C70039 ;
         padding-right: 100px;
 }
-.menuppal ul li a:hover{
+.menu ul li a:hover{
   text-decoration:none;
 }
 .menu ul li ul li a{
