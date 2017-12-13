@@ -83,3 +83,16 @@ function validarMail(mail) {
 
     return false;
 }
+
+$.ajax({
+                url:"../php/addDate.php",
+                type: "post",
+                data: datosJson,
+                success: function (response){
+                    if(response != false){
+                        swal('Fecha confirmada');
+                    }else{
+                        swal('Fecha no disponible');
+                    }
+                }
+            });
