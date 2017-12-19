@@ -105,7 +105,7 @@ function validarMail(mail) {
 $.ajax({
     url: "../php/addDate.php",
     type: "post",
-    data: datosJson,
+    data: datosFormJson,
     success: function(response) {
         if (response != false) {
             swal('Fecha confirmada');
