@@ -21,6 +21,14 @@ $(document).ready(function() {
             console.log('Campo no valido: ' + nombre);
         }
 
+        if (validarCampo(apellido)) {
+            $('.notificacionApellido').html("");
+        } else {
+            $('.notificacionApellido').append('Campo obligatorio.');
+            $('.notificacionApellido').addClass('invalido');
+            console.log('Campo no valido: ' + apellido);
+        }
+
         if (validarMail(mail)) {
             $('.notificacionMail').html("");
             console.log('Mail validado');
@@ -29,6 +37,16 @@ $(document).ready(function() {
             $('.notificacionMail').addClass('invalido');
             console.log('Mail no válido: ' + mail);
         }
+
+        if (validarCampo(consulta)) {
+            $('.notificacionConsulta').html("");
+        } else {
+            $('.notificacionConsulta').append('Dejanos un comentario');
+            $('.notificacionConsulta').addClass('invalido');
+            console.log('Campo no valido: ' + consulta);
+        }
+
+
 
 
         //JSON con datos validados
@@ -85,14 +103,14 @@ function validarMail(mail) {
 }
 
 $.ajax({
-                url:"../php/addDate.php",
-                type: "post",
-                data: datosJson,
-                success: function (response){
-                    if(response != false){
-                        swal('Fecha confirmada');
-                    }else{
-                        swal('Fecha no disponible');
-                    }
-                }
-            });
+    url: "../php/addDate.php",
+    type: "post",
+    data: datosJson,
+    success: function(response) {
+        if (response != false) {
+            swal('Fecha confirmada');
+        } else {
+            swal('Fecha no disponible');
+        }
+    }
+});
